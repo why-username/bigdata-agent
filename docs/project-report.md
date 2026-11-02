@@ -12,8 +12,8 @@
 
 | 要求 | 本项目交付 |
 |---|---|
-| 5 分钟 PPT 与 Demo | 12 页展示稿，演示一条调查链和反馈后续跑 |
-| 介绍目标、方法、成果、验证改进 | PPT 第 1–12 页，文档第 1–8 节 |
+| 5 分钟 PPT 与 Demo | 16 页展示稿，演示一条调查链和反馈后续跑 |
+| 介绍目标、方法、成果、验证改进 | PPT 第 1–16 页，文档第 1–8 节 |
 | 代码仓库与运行说明 | GitHub 仓库、README、`.env.local.example`、启动脚本 |
 | 在线 Demo 或本地 Demo | `webapp.py` 本地网页，支持四个案例和完整交互 |
 | 真实 Agent 构建 | 工具、计划、状态、记忆、验证、停止、重试、降级、日志 |
@@ -68,8 +68,7 @@ Agent 主循环为：计划 → 选择工具 → 观察 → 更新证据和假�
 
 ```mermaid
 flowchart LR
-  A[异常触发] --> B[创建调查
-案例+截点+目标]
+  A[异常触发] --> B[创建调查<br/>案例+截点+目标]
   B --> C[读取快照与企业只读源]
   C --> D[规范化与实体关联]
   D --> E[初始假设与证据缺口]
@@ -130,7 +129,7 @@ Agent 可以自动组织多源材料、去重、统计趋势、建立实体关�
 
 - GitHub 代码仓库与分支：`v1-baseline`、`v2-data-contracts`、`v3-dynamic-policy`、`v4-final-demo`、`main`。
 - `README.md`：安装、数据、API、Demo 和测试说明。
-- `outputs/vehicle-defect-agent-final.pptx`：12 页展示稿。
+- `outputs/vehicle-defect-agent-final.pptx`：16 页展示稿。
 - `docs/project-report.md` 与 Word/PDF 版本：项目说明文档。
 - `enterprise_demo.html`、`webapp.py`：本地 Demo。
 - `data/public_demo/`：精简演示数据。
