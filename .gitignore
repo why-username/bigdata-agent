@@ -5,8 +5,10 @@ __pycache__/
 .env.local
 outputs/**
 !outputs/.gitkeep
+outputs/
 data/imported/**
 !data/imported/.gitkeep
+data/imported/
 
 # Local authoring and presentation build products
 build/
@@ -14,6 +16,7 @@ build/
 output/vehicle-defect-agent-v1.pptx
 output/vehicle-defect-agent-v1.pptx.inspect.ndjson
 output/vehicle-defect-agent-final-v*.pptx
+output/vehicle-defect-agent-final.pptx
 !output/vehicle-defect-agent.pptx
 
 # Large raw research snapshots stay local; manifests and quality reports remain tracked.
@@ -24,3 +27,6 @@ data/expanded/qualification_matrix.json
 data/eval/v3_candidates/records.json
 data/processed/records_normalized.json
 data/processed/evidence_index.json
+data/eval/conclusion_holdout/
+data/eval/v3_candidates/
+data/eval/v3_official_materials/
