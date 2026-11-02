@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.local
+outputs/**
+!outputs/.gitkeep
+data/imported/**
+!data/imported/.gitkeep
+
+# Local authoring and presentation build products
+build/
+.codex-finalizer/
+output/vehicle-defect-agent-v1.pptx
+output/vehicle-defect-agent-v1.pptx.inspect.ndjson
+output/vehicle-defect-agent-final-v*.pptx
+!output/vehicle-defect-agent.pptx
+
+# Large raw research snapshots stay local; manifests and quality reports remain tracked.
+data/expanded/raw_complaints/
+data/expanded/records.json
+data/expanded/holdout_records.json
+data/expanded/qualification_matrix.json
+data/eval/v3_candidates/records.json
+data/processed/records_normalized.json
+data/processed/evidence_index.json

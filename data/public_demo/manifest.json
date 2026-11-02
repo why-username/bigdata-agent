@@ -1,0 +1,13 @@
+{
+  "bundle": "public_demo",
+  "source": "local NHTSA public snapshots",
+  "holdout_excluded": true,
+  "case_count": 3,
+  "record_count": 701,
+  "evidence_count": 4,
+  "case_ids": [
+    "EA23003",
+    "MIG-FORD-EXPLORER-2020-20V788000",
+    "MIG-TESLA-MODEL3-2021-21V387000"
+  ]
+}

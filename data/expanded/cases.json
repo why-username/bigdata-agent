@@ -1,0 +1,170 @@
+[
+  {
+    "case_id": "MIG-ODI-RQ26001",
+    "title": "CHEVROLET SILVERADO 1500 2021：Loss of motive power due to engine failure post recall remedy",
+    "make": "CHEVROLET",
+    "models": [
+      "SILVERADO 1500"
+    ],
+    "component": "engine",
+    "cutoff_date": "2026-08-20",
+    "data_status": "public_snapshot_migration_expanded",
+    "source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "retrieved_at": "2026-10-31T15:56:04+00:00",
+    "saved_at": "2026-10-31T15:56:04+00:00",
+    "fixture_notice": "研究扩展迁移案例：投诉 API 快照与 ODI 结案摘要，适用于公开资料历史回放。",
+    "migration_basis": {
+      "investigation_id": "RQ26001",
+      "component_family": "ENGINE",
+      "related_complaint_count": 403,
+      "public_material_type": "odi_close_resume_plus_nhtsa_complaints"
+    }
+  },
+  {
+    "case_id": "MIG-ODI-PE23013",
+    "title": "FORD ESCAPE 2020：Failed Door Check Arm Attachment Point",
+    "make": "FORD",
+    "models": [
+      "ESCAPE"
+    ],
+    "component": "structure:body:door ",
+    "cutoff_date": "2024-01-24",
+    "data_status": "public_snapshot_migration_expanded",
+    "source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "retrieved_at": "2026-10-31T15:55:14+00:00",
+    "saved_at": "2026-10-31T15:55:14+00:00",
+    "fixture_notice": "研究扩展迁移案例：投诉 API 快照与 ODI 结案摘要，适用于公开资料历史回放。",
+    "migration_basis": {
+      "investigation_id": "PE23013",
+      "component_family": "STRUCTURE",
+      "related_complaint_count": 377,
+      "public_material_type": "odi_close_resume_plus_nhtsa_complaints"
+    }
+  },
+  {
+    "case_id": "MIG-ODI-RQ24014",
+    "title": "FORD BRONCO SPORT 2021：Loss of Motive Power",
+    "make": "FORD",
+    "models": [
+      "BRONCO SPORT"
+    ],
+    "component": "electrical system:12v/24v/48v battery",
+    "cutoff_date": "2025-10-10",
+    "data_status": "public_snapshot_migration_expanded",
+    "source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "retrieved_at": "2026-10-31T15:55:58+00:00",
+    "saved_at": "2026-10-31T15:55:58+00:00",
+    "fixture_notice": "研究扩展迁移案例：投诉 API 快照与 ODI 结案摘要，适用于公开资料历史回放。",
+    "migration_basis": {
+      "investigation_id": "RQ24014",
+      "component_family": "ELECTRICAL",
+      "related_complaint_count": 240,
+      "public_material_type": "odi_close_resume_plus_nhtsa_complaints"
+    }
+  },
+  {
+    "case_id": "MIG-ODI-PE24028",
+    "title": "HYUNDAI IONIQ 5 2022：Electrical arcing and thermal events, potentially leading to fires, while utilizing Enel X Way USA, LLC's JuiceBox residential charger.",
+    "make": "HYUNDAI",
+    "models": [
+      "IONIQ 5"
+    ],
+    "component": "equipment:electrical",
+    "cutoff_date": "2025-06-05",
+    "data_status": "public_snapshot_migration_expanded",
+    "source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "retrieved_at": "2026-10-31T15:55:32+00:00",
+    "saved_at": "2026-10-31T15:55:32+00:00",
+    "fixture_notice": "研究扩展迁移案例：投诉 API 快照与 ODI 结案摘要，适用于公开资料历史回放。",
+    "migration_basis": {
+      "investigation_id": "PE24028",
+      "component_family": "EQUIPMENT",
+      "related_complaint_count": 212,
+      "public_material_type": "odi_close_resume_plus_nhtsa_complaints"
+    }
+  },
+  {
+    "case_id": "MIG-ODI-RQ23002",
+    "title": "FORD EXPLORER 2020：Rear Axle Bolt Failure",
+    "make": "FORD",
+    "models": [
+      "EXPLORER"
+    ],
+    "component": "power train:axle assembly",
+    "cutoff_date": "2024-02-15",
+    "data_status": "public_snapshot_migration_expanded",
+    "source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "retrieved_at": "2026-10-31T15:55:49+00:00",
+    "saved_at": "2026-10-31T15:55:49+00:00",
+    "fixture_notice": "研究扩展迁移案例：投诉 API 快照与 ODI 结案摘要，适用于公开资料历史回放。",
+    "migration_basis": {
+      "investigation_id": "RQ23002",
+      "component_family": "POWER",
+      "related_complaint_count": 187,
+      "public_material_type": "odi_close_resume_plus_nhtsa_complaints"
+    }
+  },
+  {
+    "case_id": "MIG-ODI-PE22002",
+    "title": "TESLA MODEL 3 2020：Unexpected Brake Activation",
+    "make": "TESLA",
+    "models": [
+      "MODEL 3"
+    ],
+    "component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition",
+    "cutoff_date": "2026-06-29",
+    "data_status": "public_snapshot_migration_expanded",
+    "source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "retrieved_at": "2026-10-31T15:54:56+00:00",
+    "saved_at": "2026-10-31T15:54:56+00:00",
+    "fixture_notice": "研究扩展迁移案例：投诉 API 快照与 ODI 结案摘要，适用于公开资料历史回放。",
+    "migration_basis": {
+      "investigation_id": "PE22002",
+      "component_family": "FORWARD",
+      "related_complaint_count": 187,
+      "public_material_type": "odi_close_resume_plus_nhtsa_complaints"
+    }
+  },
+  {
+    "case_id": "MIG-ODI-RQ24008",
+    "title": "FORD BRONCO SPORT 2022：Underhood fires caused by fuel leak",
+    "make": "FORD",
+    "models": [
+      "BRONCO SPORT"
+    ],
+    "component": "fuel system, gasoline:fuel injection system:injectors",
+    "cutoff_date": "2025-10-30",
+    "data_status": "public_snapshot_migration_expanded",
+    "source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "retrieved_at": "2026-10-31T15:55:54+00:00",
+    "saved_at": "2026-10-31T15:55:54+00:00",
+    "fixture_notice": "研究扩展迁移案例：投诉 API 快照与 ODI 结案摘要，适用于公开资料历史回放。",
+    "migration_basis": {
+      "investigation_id": "RQ24008",
+      "component_family": "FUEL",
+      "related_complaint_count": 106,
+      "public_material_type": "odi_close_resume_plus_nhtsa_complaints"
+    }
+  },
+  {
+    "case_id": "MIG-ODI-RQ22005",
+    "title": "HYUNDAI PALISADE 2021：Windshield Wiper Failure",
+    "make": "HYUNDAI",
+    "models": [
+      "PALISADE"
+    ],
+    "component": "visibility:windshield wiper/washer",
+    "cutoff_date": "2023-05-26",
+    "data_status": "public_snapshot_migration_expanded",
+    "source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "retrieved_at": "2026-10-31T15:55:45+00:00",
+    "saved_at": "2026-10-31T15:55:45+00:00",
+    "fixture_notice": "研究扩展迁移案例：投诉 API 快照与 ODI 结案摘要，适用于公开资料历史回放。",
+    "migration_basis": {
+      "investigation_id": "RQ22005",
+      "component_family": "VISIBILITY",
+      "related_complaint_count": 46,
+      "public_material_type": "odi_close_resume_plus_nhtsa_complaints"
+    }
+  }
+]

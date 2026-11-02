@@ -1,0 +1,36 @@
+[
+  {
+    "evidence_id": "DEMO-E001",
+    "case_id": "EA23003",
+    "title": "合成演示材料：跨车型症状核查清单",
+    "content": "演示建议：核对 Civic、CR-V 与 Integra 的年款、转向部件配置、行驶时长、温度及维修记录。此段文字为合成工作材料，不是厂家通报或调查结论。",
+    "published_date": "2023-10-01",
+    "source_kind": "demo_fixture",
+    "source_url": "",
+    "citation_locator": "合成演示材料第 1 段",
+    "is_demo_fixture": true
+  },
+  {
+    "evidence_id": "DEMO-E002",
+    "case_id": "EA23003",
+    "title": "合成演示材料：反例和替代解释清单",
+    "content": "演示建议：同时核实轮胎、定位、路面、驾驶模式和维修后状态等替代解释，并寻找可以反驳共同部件假设的记录。此段文字为合成工作材料，不是技术分析结果。",
+    "published_date": "2023-10-15",
+    "source_kind": "demo_fixture",
+    "source_url": "",
+    "citation_locator": "合成演示材料第 1 段",
+    "is_demo_fixture": true
+  },
+  {
+    "evidence_id": "GOLD-EA23003-CLOSE",
+    "case_id": "EA23003",
+    "title": "EA23003 Close Resume（留出评测资料）",
+    "content": "该资料发布日期晚于回放截点，不可用于调查过程，只能在评测阶段作为后续结论参考。",
+    "published_date": "2025-01-28",
+    "source_kind": "holdout",
+    "source_url": "https://static.nhtsa.gov/odi/inv/2023/INCLA-EA23003-11060.pdf",
+    "citation_locator": "结案摘要",
+    "is_demo_fixture": false,
+    "holdout_only": true
+  }
+]

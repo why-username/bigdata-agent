@@ -1,0 +1,265 @@
+[
+  {
+    "task_id": "MAIN-01",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "汇总截至截点的转向相关投诉趋势，并说明统计局限。",
+    "focus": "trend",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": [
+      "search_records",
+      "analyze_trend"
+    ]
+  },
+  {
+    "task_id": "MAIN-02",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "检查 Civic、CR-V、Integra 之间是否存在值得核查的共同线索。",
+    "focus": "links",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": [
+      "search_records",
+      "link_entities"
+    ]
+  },
+  {
+    "task_id": "MAIN-03",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "提出至少两个竞争性解释，并指出需要寻找的反证。",
+    "focus": "counterevidence",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence",
+      "link_entities"
+    ]
+  },
+  {
+    "task_id": "MAIN-04",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "检查症状描述是否可能只是文字相似，避免直接合并故障原因。",
+    "focus": "evidence",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence"
+    ]
+  },
+  {
+    "task_id": "MAIN-05",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "决定下一步最有价值的证据核查，并生成待人工补查任务。",
+    "focus": "followup",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence",
+      "create_followup"
+    ]
+  },
+  {
+    "task_id": "MAIN-06",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "形成带来源登记和不确定性说明的调查摘要。",
+    "focus": "report",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence"
+    ]
+  },
+  {
+    "task_id": "TRANSFER-01",
+    "case_id": "TRANSFER_CASE_1",
+    "kind": "transfer",
+    "goal": "验证调查工具能否用于不同部件类别的公开调查案例。",
+    "focus": "transfer",
+    "cutoff_date": null,
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence"
+    ]
+  },
+  {
+    "task_id": "TRANSFER-02",
+    "case_id": "TRANSFER_CASE_2",
+    "kind": "transfer",
+    "goal": "验证调查工具能否迁移到第二个不同部件类别的案例。",
+    "focus": "transfer",
+    "cutoff_date": null,
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence"
+    ]
+  },
+  {
+    "task_id": "EDGE-01",
+    "case_id": "EA23003",
+    "kind": "edge_empty",
+    "goal": "查询不存在的车型时返回空结果而非编造记录。",
+    "focus": "empty",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": []
+  },
+  {
+    "task_id": "EDGE-02",
+    "case_id": "EA23003",
+    "kind": "edge_cutoff",
+    "goal": "确认截点后的资料不会进入调查证据。",
+    "focus": "cutoff",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": []
+  },
+  {
+    "task_id": "EDGE-03",
+    "case_id": "EA23003",
+    "kind": "edge_invalid_date",
+    "goal": "无效截点应返回可读错误且不继续检索。",
+    "focus": "invalid_date",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": []
+  },
+  {
+    "task_id": "EDGE-04",
+    "case_id": "EA23003",
+    "kind": "edge_tool_failure",
+    "goal": "未知工具调用应失败可见并停止，不得进入重试风暴。",
+    "focus": "tool_failure",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": []
+  },
+  {
+    "task_id": "EDGE-05",
+    "case_id": "EA23003",
+    "kind": "edge_missing_fields",
+    "goal": "缺少日期、来源或投诉编号的记录不得被写成可核验证据。",
+    "focus": "missing_fields",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": []
+  },
+  {
+    "task_id": "EDGE-06",
+    "case_id": "EA23003",
+    "kind": "edge_source_conflict",
+    "goal": "同一证据编号出现冲突来源时必须标记待复核，不得静默覆盖。",
+    "focus": "source_conflict",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": []
+  },
+  {
+    "task_id": "EDGE-07",
+    "case_id": "EA23003",
+    "kind": "feedback_loop",
+    "goal": "提出下一步补查、录入人工反馈后继续调查并保存完整轨迹。",
+    "focus": "followup",
+    "cutoff_date": "2023-11-28",
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence",
+      "create_followup"
+    ]
+  },
+  {
+    "task_id": "MAIN-T01",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "比较较早截点的转向投诉趋势，确认后续记录不会回流。",
+    "focus": "trend",
+    "cutoff_date": "2023-06-30",
+    "expected_tools": [
+      "search_records",
+      "analyze_trend"
+    ]
+  },
+  {
+    "task_id": "MAIN-T02",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "比较秋季截点的转向投诉趋势和月度变化。",
+    "focus": "trend",
+    "cutoff_date": "2023-09-30",
+    "expected_tools": [
+      "search_records",
+      "analyze_trend"
+    ]
+  },
+  {
+    "task_id": "MAIN-T03",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "在较早截点检查 Civic、CR-V、Integra 的共同线索。",
+    "focus": "links",
+    "cutoff_date": "2023-06-30",
+    "expected_tools": [
+      "search_records",
+      "link_entities"
+    ]
+  },
+  {
+    "task_id": "MAIN-T04",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "在秋季截点寻找转向共同根因的反证和替代解释。",
+    "focus": "counterevidence",
+    "cutoff_date": "2023-09-30",
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence",
+      "link_entities"
+    ]
+  },
+  {
+    "task_id": "MAIN-T05",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "检查较早截点的症状文本相似性是否足以支持关联。",
+    "focus": "evidence",
+    "cutoff_date": "2023-06-30",
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence"
+    ]
+  },
+  {
+    "task_id": "MAIN-T06",
+    "case_id": "EA23003",
+    "kind": "investigation",
+    "goal": "针对秋季截点证据缺口提出可验收的补查任务。",
+    "focus": "followup",
+    "cutoff_date": "2023-09-30",
+    "expected_tools": [
+      "search_records",
+      "retrieve_evidence",
+      "create_followup"
+    ]
+  },
+  {
+    "task_id": "EDGE-08",
+    "case_id": "EA23003",
+    "kind": "edge_cutoff_early",
+    "goal": "更早截点不得返回后续证据。",
+    "focus": "cutoff",
+    "cutoff_date": "2023-06-30"
+  },
+  {
+    "task_id": "EDGE-09",
+    "case_id": "EA23003",
+    "kind": "edge_empty_evidence",
+    "goal": "不存在的证据查询返回空集合且不编造来源。",
+    "focus": "empty_evidence",
+    "cutoff_date": "2023-11-28"
+  },
+  {
+    "task_id": "EDGE-10",
+    "case_id": "EA23003",
+    "kind": "edge_plan_stop",
+    "goal": "达到循环或重复动作上限时必须保存停止原因。",
+    "focus": "stop",
+    "cutoff_date": "2023-11-28"
+  }
+]

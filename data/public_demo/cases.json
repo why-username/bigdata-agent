@@ -1,0 +1,101 @@
+[
+  {
+    "case_id": "EA23003",
+    "title": "Honda/Acura 转向阻力调查 EA23003（NHTSA API 快照）",
+    "make": "Honda",
+    "models": [
+      "Civic",
+      "CR-V",
+      "Integra"
+    ],
+    "component": "steering",
+    "cutoff_date": "2023-11-28",
+    "data_status": "public_snapshot",
+    "source_url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
+    "retrieved_at": "2026-10-31T03:44:39+00:00",
+    "saved_at": "2026-10-31T03:44:39+00:00",
+    "fixture_notice": "",
+    "official_model_mapping": {
+      "input": "Civic",
+      "make": "HONDA",
+      "model_year": 2023,
+      "official_models": [
+        "CIVIC SEDAN",
+        "CIVIC HATCHBACK",
+        "CIVIC SEDAN SI",
+        "CIVIC HATCHBACK TYPE R"
+      ]
+    },
+    "civic_series_statistics_status": "complete",
+    "civic_series_query_statuses": {
+      "CIVIC SEDAN": "ok",
+      "CIVIC HATCHBACK": "ok",
+      "CIVIC SEDAN SI": "ok",
+      "CIVIC HATCHBACK TYPE R": "ok"
+    },
+    "civic_series_record_count": 338
+  },
+  {
+    "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+    "title": "Ford Explorer 2020 发动机召回",
+    "make": "Ford",
+    "models": [
+      "Explorer"
+    ],
+    "component": "engine",
+    "cutoff_date": "2020-12-17",
+    "data_status": "public_snapshot_migration",
+    "source_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=Explorer&modelYear=2020",
+    "retrieved_at": "2026-10-31T12:44:38+08:00",
+    "saved_at": "2026-10-31T12:44:38+08:00",
+    "fixture_notice": "精简迁移案例：使用 NHTSA 公开召回处置材料与部件筛选后的投诉快照，不等同于完整 ODI 调查结案档案。",
+    "migration_basis": {
+      "campaign": "20V788000",
+      "component_token": "ENGINE",
+      "related_complaint_count": 138,
+      "public_material_type": "public_recall_disposition"
+    }
+  },
+  {
+    "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+    "title": "Tesla Model 3 2021 制动卡钳召回",
+    "make": "Tesla",
+    "models": [
+      "Model 3"
+    ],
+    "component": "service brakes",
+    "cutoff_date": "2021-05-25",
+    "data_status": "public_snapshot_migration",
+    "source_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=Model+3&modelYear=2021",
+    "retrieved_at": "2026-10-31T12:44:42+08:00",
+    "saved_at": "2026-10-31T12:44:42+08:00",
+    "fixture_notice": "精简迁移案例：使用 NHTSA 公开召回处置材料与部件筛选后的投诉快照，不等同于完整 ODI 调查结案档案。",
+    "migration_basis": {
+      "campaign": "21V387000",
+      "component_token": "SERVICE BRAKES",
+      "related_complaint_count": 126,
+      "public_material_type": "public_recall_disposition"
+    }
+  },
+  {
+    "case_id": "MIG-ODI-PE23013",
+    "title": "FORD ESCAPE 2020：Failed Door Check Arm Attachment Point",
+    "make": "FORD",
+    "models": [
+      "ESCAPE"
+    ],
+    "component": "structure:body:door ",
+    "cutoff_date": "2024-01-24",
+    "data_status": "public_snapshot_migration_expanded",
+    "source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "retrieved_at": "2026-10-31T15:55:14+00:00",
+    "saved_at": "2026-10-31T15:55:14+00:00",
+    "fixture_notice": "研究扩展迁移案例：投诉 API 快照与 ODI 结案摘要，适用于公开资料历史回放。",
+    "migration_basis": {
+      "investigation_id": "PE23013",
+      "component_family": "STRUCTURE",
+      "related_complaint_count": 377,
+      "public_material_type": "odi_close_resume_plus_nhtsa_complaints"
+    }
+  }
+]

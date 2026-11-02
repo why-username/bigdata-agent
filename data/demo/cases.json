@@ -1,0 +1,14 @@
+[
+  {
+    "case_id": "EA23003",
+    "title": "Honda 转向阻力异常调查（离线演示案例）",
+    "make": "Honda",
+    "models": ["Civic", "CR-V", "Integra"],
+    "component": "steering",
+    "cutoff_date": "2023-11-28",
+    "data_status": "synthetic_demo_fixture",
+    "fixture_notice": "当前记录为合成演示夹具，不是 NHTSA 原始投诉或调查资料；不可据此推断真实车辆缺陷。导入公开快照后可替换本案例数据。",
+    "source_note": "案例名称及回放截点来自课程选题材料；真实截点前资料尚未导入。",
+    "outcome_note": "后续公开调查与召回结论保存在 data/gold/ea23003.json，不参与工具检索。"
+  }
+]

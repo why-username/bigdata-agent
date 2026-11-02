@@ -1,0 +1,19 @@
+{
+  "selection_rule": "最多两个；有投诉记录、有公开结案材料、主要部件不同；按投诉记录数降序、case_id 升序",
+  "selected": [
+    {
+      "case_id": "MIG-ODI-RQ26001",
+      "record_count": 787,
+      "component": "engine",
+      "selection_basis": "has_complaints_and_public_close_material_and_different_component"
+    },
+    {
+      "case_id": "MIG-ODI-PE23013",
+      "record_count": 701,
+      "component": "structure:body:door ",
+      "selection_basis": "has_complaints_and_public_close_material_and_different_component"
+    }
+  ],
+  "blocked_reason": null,
+  "prepared_at": "2026-10-31T15:58:03+00:00"
+}

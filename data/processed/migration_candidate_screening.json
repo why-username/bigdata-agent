@@ -1,0 +1,1445 @@
+{
+  "candidate_count": 22,
+  "screened_count": 22,
+  "screening_rule": "候选必须有成功投诉和召回 API、公开召回处置日期；优先部件相关投诉量，再看总投诉量；最终还需与 EA23003 主要部件不同。",
+  "results": [
+    {
+      "make": "Ford",
+      "model": "Explorer",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 1247,
+      "recall_count": 33,
+      "best_component": "ENGINE",
+      "best_campaign": "20V788000",
+      "best_published_date": "17/12/2020",
+      "best_related_complaint_count": 138,
+      "components": [
+        {
+          "component": "ENGINE",
+          "campaign": "20V788000",
+          "published_date": "17/12/2020",
+          "related_complaint_count": 138,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2021 Explorer and Lincoln Aviator vehicles.  The right hand motor mount fasteners may have been incorrectly tightened, and may loosen over time."
+        },
+        {
+          "component": "ENGINE",
+          "campaign": "24V598000",
+          "published_date": "10/08/2024",
+          "related_complaint_count": 138,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2022 Explorer vehicles equipped with the Police Interceptor Utility Package.  In the event of an engine failure, engine oil and fuel vapor may be released into the engine compartment and accumulate near ignition sources such as hot engine or exhaus"
+        },
+        {
+          "component": "SEAT BELTS",
+          "campaign": "25V093000",
+          "published_date": "14/02/2025",
+          "related_complaint_count": 18,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2021 Explorer and Aviator vehicles.  The seat belt buckle anchor bolts at one or more seating positions may be improperly secured.  Additionally, vehicles may have an improperly secured seat belt retractor anchor bolt and/or seat belt anchor bolt a"
+        },
+        {
+          "component": "SEAT BELTS",
+          "campaign": "26V159000",
+          "published_date": "17/03/2026",
+          "related_complaint_count": 18,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2026 Explorer and Lincoln Aviator vehicles. The seat belt anchor bolts at the second-row outer seating positions may be improperly secured."
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "19V859000",
+          "published_date": "04/12/2019",
+          "related_complaint_count": 2,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 Explorer and Lincoln Aviator vehicles.  Over time, the protective sleeve on the vapor fuel line may chafe through the plastic liquid fuel line and cause a fuel leak."
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "20V730000",
+          "published_date": "24/11/2020",
+          "related_complaint_count": 2,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 Explorer vehicles equipped with 2.3L engines and 19 gallon fuel tanks.  The fuel tank inlet check valve may not be fully welded to the fuel tank shell."
+        },
+        {
+          "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:GEAR POSITION INDICATION (PRNDL)",
+          "campaign": "19V575000",
+          "published_date": "05/08/2019",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 Explorer and Lincoln Aviator vehicles. The Manual Park Release (MPR) cover may not be installed.  In addition, the vehicles may be in Factory Mode, which disables warning alerts and does not display the transmission gear selected.  As such, these v"
+        },
+        {
+          "component": "SEATS:FRONT ASSEMBLY:RECLINER",
+          "campaign": "19V633000",
+          "published_date": "28/08/2019",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2018-2020 F-150 and 2019-2020 F-250, F-350, F-450, and F-550 Super Duty pickup trucks, and 2018-2019 Ford Explorer, 2019-2020 Expedition, and 2020 Escape vehicles equipped with driver and/or passenger's manual front seat back recliner mechanisms.  Also "
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:WIRING",
+          "campaign": "19V687000",
+          "published_date": "30/09/2019",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 Ford Explorer vehicles equipped with 2.3L or 3.3L engines.  The wiring harness may not have been properly secured and may contact the air conditioner compressor (A/C) pulley, potentially damaging the harness or the A/C belt."
+        },
+        {
+          "component": "AIR BAGS:CRITICAL FASTENERS",
+          "campaign": "20V497000",
+          "published_date": "21/08/2020",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 Explorer and 2020 Lincoln Aviator vehicles.  The side air bag and/or seat back module attachments may not have been properly tightened in the front seat backs."
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Ford&model=Explorer&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=Explorer&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:27+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:28+08:00",
+      "sha256_complaints": "d21d8af223326c7a551c172fe8b94165e9c0a923303a28225d20e1e0404d7bdb",
+      "sha256_recalls": "86a33b06824f02466abc103086b9b06bb13f3170147431adb470870166eb68ac",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Ford_Explorer_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Ford_Explorer_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:28+08:00"
+    },
+    {
+      "make": "Ford",
+      "model": "Escape",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 1548,
+      "recall_count": 23,
+      "best_component": "ENGINE",
+      "best_campaign": "23V380000",
+      "best_published_date": "27/05/2023",
+      "best_related_complaint_count": 132,
+      "components": [
+        {
+          "component": "ENGINE",
+          "campaign": "23V380000",
+          "published_date": "27/05/2023",
+          "related_complaint_count": 132,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2023 Escape, 2022-2023 Maverick, and 2021-2023 Corsair vehicles equipped with 2.5L HEV or PHEV engines.  In the event of an engine failure, engine oil and fuel vapor may be released into the engine compartment and accumulate near ignition sources s"
+        },
+        {
+          "component": "ENGINE",
+          "campaign": "25V345000",
+          "published_date": "23/05/2025",
+          "related_complaint_count": 132,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2023 Escape, 2021-2023 Corsair, and 2022-2023 Maverick vehicles equipped with 2.5L HEV or PHEV engines that were repaired incorrectly under recall 23V380. In the event of an engine failure, engine oil and fuel vapor may be released into the engine "
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "22V859000",
+          "published_date": "19/11/2022",
+          "related_complaint_count": 122,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2023 Escape and 2021-2023 Bronco Sport vehicles equipped with 1.5L engines.  A fuel injector may crack and leak fuel inside the engine compartment."
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "25V165000",
+          "published_date": "14/03/2025",
+          "related_complaint_count": 122,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2022 Escape and 2021-2023 Bronco Sport vehicles previously repaired incorrectly under recall numbers 22V-859 or 24V-187.  A fuel injector may crack and leak fuel inside the engine compartment."
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "25V467000",
+          "published_date": "11/07/2025",
+          "related_complaint_count": 122,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2021-2024 Bronco Sport and 2020-2022 Escape vehicles equipped with 1.5L engines. A fuel injector may crack and leak fuel inside the engine compartment."
+        },
+        {
+          "component": "SERVICE BRAKES",
+          "campaign": "25V693000",
+          "published_date": "11/10/2025",
+          "related_complaint_count": 42,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 Escape vehicles. The rear brake pads may have been manufactured incorrectly, which can reduce brake function in the event of a brake booster malfunction.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety "
+        },
+        {
+          "component": "ENGINE AND ENGINE COOLING",
+          "campaign": "22V484000",
+          "published_date": "07/07/2022",
+          "related_complaint_count": 12,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2022 Escape, 2021-2022 Lincoln Corsair, and 2022 Maverick vehicles equipped with 2.5L HEV or PHEV engines.  In the event of an engine failure, engine oil and fuel vapor may be released into the engine compartment and accumulate near ignition source"
+        },
+        {
+          "component": "SEATS:FRONT ASSEMBLY:RECLINER",
+          "campaign": "19V633000",
+          "published_date": "28/08/2019",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2018-2020 F-150 and 2019-2020 F-250, F-350, F-450, and F-550 Super Duty pickup trucks, and 2018-2019 Ford Explorer, 2019-2020 Expedition, and 2020 Escape vehicles equipped with driver and/or passenger's manual front seat back recliner mechanisms.  Also "
+        },
+        {
+          "component": "AIR BAGS:SIDE",
+          "campaign": "20V415000",
+          "published_date": "17/07/2020",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 Escape and Transit vehicles.  The affected vehicles may have an improperly crimped diffuser in the side curtain air bags which may result in the diffuser detaching from the inflator in the event of an air bag deployment."
+        },
+        {
+          "component": "POWER TRAIN:AUTOMATIC TRANSMISSION",
+          "campaign": "20V550000",
+          "published_date": "10/09/2020",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2019-2020 Edge, Transit Connect and Lincoln MKX and 2020 Escape and Lincoln Corsair vehicles.  The start/stop accumulator endcap may have missing or loose bolts."
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Ford&model=Escape&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=Escape&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:26+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:27+08:00",
+      "sha256_complaints": "84dff7762c590e49aae612c5dfaac48152e3c63776e6940db2f274e47e4b1262",
+      "sha256_recalls": "57851de921ab0280d11c30c23a76de4ba3555e724cfe615f7553dee01ec87457",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Ford_Escape_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Ford_Escape_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:27+08:00"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model 3",
+      "model_year": 2021,
+      "status": "ok",
+      "complaint_count": 674,
+      "recall_count": 22,
+      "best_component": "SERVICE BRAKES",
+      "best_campaign": "21V387000",
+      "best_published_date": "25/05/2021",
+      "best_related_complaint_count": 126,
+      "components": [
+        {
+          "component": "SERVICE BRAKES",
+          "campaign": "21V387000",
+          "published_date": "25/05/2021",
+          "related_complaint_count": 126,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2019-2021 Model 3 and 2020-2021 Model Y vehicles.  The brake caliper bolts may be loose, allowing the brake caliper to separate and contact the wheel rim."
+        },
+        {
+          "component": "LATCHES",
+          "campaign": "24V554000",
+          "published_date": "24/07/2024",
+          "related_complaint_count": 7,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2021-2024 Model 3, Model S, Model X, and 2020-2024 Model Y vehicles.  The hood latch assembly may fail to detect an unlatched hood condition after the hood has been opened."
+        },
+        {
+          "component": "AIR BAGS:SIDE",
+          "campaign": "21V834000",
+          "published_date": "25/10/2021",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2021, 2023 Model 3 vehicles.  The left and/or right side curtain air bag may have been improperly secured to the roof rail, which could result in a twisted air bag.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Sa"
+        },
+        {
+          "component": "SUSPENSION:CRITICAL FASTENERS",
+          "campaign": "21V835000",
+          "published_date": "25/10/2021",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2021 Model Y and 2019-2021 Model 3 vehicles.  The front suspension lateral link fasteners may loosen, allowing the lateral link to separate from the sub-frame."
+        },
+        {
+          "component": "FORWARD COLLISION AVOIDANCE: SENSING SYSTEM: CAMERA",
+          "campaign": "21V846000",
+          "published_date": "29/10/2021",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2017-2021 Model S, Model 3, Model X, and 2020-2021 Model Y vehicles operating software version 2021.36.5.2.  A communication error may cause false forward-collision warning (FCW) or unexpected activation of the automatic emergency brake (AEB) system."
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:ADAS:AUTONOMOUS",
+          "campaign": "22V037000",
+          "published_date": "27/01/2022",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2016-2022 Model S and Model X, 2017-2022 Model 3, and 2020-2022 Model Y vehicles.  The \"rolling stop\" functionality available as part of the Full Self-Driving (Beta) software may allow the vehicle to travel through an all-way stop intersection without first c"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:SOFTWARE",
+          "campaign": "22V045000",
+          "published_date": "01/02/2022",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2021-2022 Model S and Model X, 2017-2022 Model 3, and 2020-2022 Model Y vehicles.  The audible chime may not activate when the vehicle starts and the driver has not buckled their seat belt.  As such, these vehicles fail to comply with the requirements of Fede"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:SOFTWARE",
+          "campaign": "22V050000",
+          "published_date": "02/02/2022",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2021-2022 Model 3, Model S, Model X, and 2020-2022 Model Y vehicles.  A software error may cause a valve in the heat pump to open unintentionally and trap the refrigerant inside the evaporator, resulting in decreased defrosting performance.  As such, these ve"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:SOFTWARE",
+          "campaign": "22V063000",
+          "published_date": "04/02/2022",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2022 Model S, Model X, Model Y, and 2017-2022 Model 3 vehicles.  The Boombox function allows sounds to be played through an external speaker while the vehicle is in motion, which may obscure the Pedestrian Warning System (PWS) sounds.  As such, these veh"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:SOFTWARE",
+          "campaign": "22V235000",
+          "published_date": "12/04/2022",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2022 Model Y, Model X, Model S, and 2017-2022 Model 3 vehicles.  The Boombox function allows sounds to be played through an external speaker while the vehicle is in motion, which may obscure the Pedestrian Warning System (PWS) sounds.  As such, these veh"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Tesla&model=Model+3&modelYear=2021",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=Model+3&modelYear=2021",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:27+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:28+08:00",
+      "sha256_complaints": "cacb1844e942e2c339270fbfd40d34a88e1eb7c5325bd6ddbcca47a8c3ddbdf3",
+      "sha256_recalls": "32fb96ca4dac81100fa7750b9ca165a1e6e116bbaa8a153162d7e20384f4220e",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Tesla_Model_3_2021_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Tesla_Model_3_2021_recalls.json",
+      "screened_at": "2026-10-31T12:42:28+08:00"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 749,
+      "recall_count": 12,
+      "best_component": "SERVICE BRAKES",
+      "best_campaign": "20V116000",
+      "best_published_date": "27/02/2020",
+      "best_related_complaint_count": 114,
+      "components": [
+        {
+          "component": "SERVICE BRAKES",
+          "campaign": "20V116000",
+          "published_date": "27/02/2020",
+          "related_complaint_count": 114,
+          "summary": "General Motors LLC (GM) is recalling certain 2020 Chevrolet Silverado 1500 and GMC Sierra 1500 vehicles.  The bolts used to attach the front and/or rear brake calipers may have not been heat treated and may break under load."
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "19V837000",
+          "published_date": "21/11/2019",
+          "related_complaint_count": 6,
+          "summary": "General Motors LLC (GM) is recalling certain 2020 Cadillac Escalade, Escalade ESV, Chevrolet Camaro, Silverado 1500, Suburban, Tahoe, GMC Sierra 1500, Yukon, and Yukon XL vehicles.  The fuel pump may be missing a pressure regulator, allowing for over-pressurization of the fuel system."
+        },
+        {
+          "component": "SEAT BELTS",
+          "campaign": "20V792000",
+          "published_date": "17/12/2020",
+          "related_complaint_count": 5,
+          "summary": "General Motors, LLC (GM) is recalling certain 2019-2021 Chevrolet Silverado 1500 and GMC Sierra 1500, 2021 Chevrolet Suburban and Tahoe and GMC Yukon XL and 2020-2021 Chevrolet Silverado 2500 and 3500 and GMC Sierra 2500 and 3500 vehicles.   The seat belt brackets may not be secured to the seat fram"
+        },
+        {
+          "component": "TIRES",
+          "campaign": "20V684000",
+          "published_date": "05/11/2020",
+          "related_complaint_count": 4,
+          "summary": "General Motors LLC (GM) is recalling certain 2020 Buick Enclave, Cadillac XT5, GMC Acadia and Chevrolet Traverse vehicles and 2020-2021 Chevrolet Silverado 1500, GMC Sierra 1500 vehicles.  The vehicles may have been manufactured with Continental tires that were overcured."
+        },
+        {
+          "component": "TIRES",
+          "campaign": "21V115000",
+          "published_date": "25/02/2021",
+          "related_complaint_count": 4,
+          "summary": "General Motors LLC (GM) is recalling certain 2020 Buick Enclave, Cadillac XT4, XT5, Escalade, Escalade ESV, Chevrolet Suburban, Tahoe, Traverse, GMC Yukon, Yukon XL, 2018-2021 Chevrolet Express, GMC Savana, 2019-2020 Chevrolet Blazer, Silverado 1500, GMC Acadia, Sierra 1500, and certain Continental "
+        },
+        {
+          "component": "SEAT BELTS:PRETENSIONER",
+          "campaign": "19V814000",
+          "published_date": "14/11/2019",
+          "related_complaint_count": 0,
+          "summary": "General Motors LLC (GM) is recalling certain 2019-2020 Chevrolet Silverado 1500 and GMC Sierra 1500, and 2020 Silverado 2500, Silverado 3500, Sierra 2500, and Sierra 3500 vehicles equipped with carpet floor covering.  When the front seat belt pretensioners deploy, hot gas may vent through an opening"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:12V",
+          "campaign": "19V888000",
+          "published_date": "12/12/2019",
+          "related_complaint_count": 0,
+          "summary": "General Motors LLC (GM) is recalling certain 2019-2020 Chevrolet Silverado 1500 and GMC Sierra 1500 trucks.  The battery positive (B+) cable rings may have been manufactured with excessive glue, potentially causing an intermittent electrical connection between the B+ cable and alternator."
+        },
+        {
+          "component": "AIR BAGS:SIDE",
+          "campaign": "20V446000",
+          "published_date": "30/07/2020",
+          "related_complaint_count": 0,
+          "summary": "General Motors, LLC. (GM) is recalling certain 2020 Buick Enclave, Cadillac XT5 and XT6, Chevrolet Blazer, Silverado 1500, 2500 and 3500 and Traverse and GMC Acadia and Sierra 1500, 2500 and 3500 vehicles.  The diffuser component of the Roof-Rail Air Bag (RRAB) inflator may not have been properly cr"
+        },
+        {
+          "component": "POWER TRAIN:DRIVELINE:DRIVESHAFT",
+          "campaign": "20V650000",
+          "published_date": "22/10/2020",
+          "related_complaint_count": 0,
+          "summary": "General Motors LLC (GM) is recalling certain 2019-2020 Chevrolet Silverado 1500 and GMC Sierra 1500 and 2020 Chevrolet Silverado 2500 trucks.  One of the driveshaft joints may not have been properly welded, causing the driveshaft to separate while the vehicle is moving."
+        },
+        {
+          "component": "TIRES:TEMPORARY",
+          "campaign": "21V985000",
+          "published_date": "16/12/2021",
+          "related_complaint_count": 0,
+          "summary": "General Motors (GM) is recalling certain 2019-2021 GMC Sierra 1500 and Silverado 1500 vehicles equipped with certain accessory road tires and a 17\" spare tire.  The 17\" spare tire provided with the vehicle is not compatible for use with the accessory wheels, which can cause the anti-lock brake syste"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Chevrolet&model=Silverado+1500&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=Silverado+1500&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:31+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:32+08:00",
+      "sha256_complaints": "ea5232081f4acf73b7a48017861ca03e559a9e8ff5e875fa6fda4c426badb4bd",
+      "sha256_recalls": "111812893508e67e64eedd8c324fbe9008462a89ab0a8eb20c6dd87aac9f63ca",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Chevrolet_Silverado_1500_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Chevrolet_Silverado_1500_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:32+08:00"
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Equinox",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 318,
+      "recall_count": 4,
+      "best_component": "SERVICE BRAKES",
+      "best_campaign": "19V704000",
+      "best_published_date": "03/10/2019",
+      "best_related_complaint_count": 113,
+      "components": [
+        {
+          "component": "SERVICE BRAKES",
+          "campaign": "19V704000",
+          "published_date": "03/10/2019",
+          "related_complaint_count": 113,
+          "summary": "General Motors LLC (GM) is recalling certain 2020 Chevrolet Equinox vehicles.  The rear brake calipers may have been produced with an incorrect lubricant, potentially causing the rubber seals to swell and the brakes to drag."
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "19V667000",
+          "published_date": "19/09/2019",
+          "related_complaint_count": 7,
+          "summary": "General Motors LLC (GM) is recalling certain 2019-2020 Chevrolet Equinox all-wheel drive vehicles.  The fuel tanks may have been manufactured with an improperly sealed seam, possibly allowing fuel to leak along the seam near the fuel inlet."
+        },
+        {
+          "component": "POWER TRAIN:AUTOMATIC TRANSMISSION",
+          "campaign": "20V668000",
+          "published_date": "29/10/2020",
+          "related_complaint_count": 0,
+          "summary": "General Motors LLC (GM) is recalling certain 2018-2019 Chevrolet Cruze and Buick LaCrosse, 2018-2020 Chevrolet Equinox, Chevrolet Traverse and GMC Terrain, 2018 Chevrolet Malibu, 2019-2020 Buick Encore, Buick Enclave, Cadillac XT4, Chevrolet Blazer and GMC Acadia, and 2020 Cadillac XT6 vehicles.  Th"
+        },
+        {
+          "component": "CHILD SEAT:VEHICLE LATCH ANCHOR",
+          "campaign": "23V339000",
+          "published_date": "11/05/2023",
+          "related_complaint_count": 0,
+          "summary": "General Motors, LLC (GM) is recalling certain 2020-2023 Chevrolet Equinox and GMC Terrain vehicles.  The four rear-seat lower child seat LATCH anchorage bars may have excessive powder coating, which could prevent a child seat from being installed with the anchorage bars.  As such, these vehicles fai"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Chevrolet&model=Equinox&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Chevrolet&model=Equinox&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:30+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:31+08:00",
+      "sha256_complaints": "7290c4319fd458ec47ae7ed4035e4004efb9a8ee2d15671822b3fe431e936647",
+      "sha256_recalls": "33d46d170c173b0479edf1f31566ce40ebc25dd0e672c00641b5f12ef223e665",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Chevrolet_Equinox_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Chevrolet_Equinox_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:31+08:00"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Elantra",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 254,
+      "recall_count": 3,
+      "best_component": "ENGINE",
+      "best_campaign": "21V301000",
+      "best_published_date": "28/04/2021",
+      "best_related_complaint_count": 112,
+      "components": [
+        {
+          "component": "ENGINE",
+          "campaign": "21V301000",
+          "published_date": "28/04/2021",
+          "related_complaint_count": 112,
+          "summary": "Hyundai Motor America (Hyundai) is recalling certain 2019-2020 Elantra, 2019-2021 Kona and Veloster vehicles equipped with 2.0L Nu MPI engines.  The piston oil rings may not have been properly heat-treated, which could result in engine damage."
+        },
+        {
+          "component": "WHEELS:LUGS",
+          "campaign": "19V720000",
+          "published_date": "09/10/2019",
+          "related_complaint_count": 0,
+          "summary": "Hyundai Motor America (Hyundai) is recalling certain 2019 Ioniq Hybrid and 2020 Elantra vehicles.  The right-side rear wheel lug nuts may have been insufficiently tightened, allowing the wheel to detach from the vehicle."
+        },
+        {
+          "component": "SUSPENSION:FRONT:CONTROL ARM:LOWER BALL JOINT",
+          "campaign": "19V721000",
+          "published_date": "09/10/2019",
+          "related_complaint_count": 0,
+          "summary": "Hyundai Motor America (Hyundai) is recalling certain 2020 Elantra vehicles.  The lower control arm ball joint fasteners may have been insufficiently tightened allowing the ball joint to detach from the lower control arm."
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Hyundai&model=Elantra&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=Elantra&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:28+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:28+08:00",
+      "sha256_complaints": "e645a80d6affa7bb6e227adafad61972b07f054e28f181df87e637ba4b2125c4",
+      "sha256_recalls": "3046ffe5df104eef432a4d74f891a83c8d8eed78b38faddd8b4ef80f77bc82cd",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Hyundai_Elantra_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Hyundai_Elantra_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:28+08:00"
+    },
+    {
+      "make": "Ram",
+      "model": "1500",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 641,
+      "recall_count": 14,
+      "best_component": "FUEL SYSTEM",
+      "best_campaign": "22V767000",
+      "best_published_date": "13/10/2022",
+      "best_related_complaint_count": 30,
+      "components": [
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "22V767000",
+          "published_date": "13/10/2022",
+          "related_complaint_count": 30,
+          "summary": "Chrysler (FCA US, LLC) is recalling certain 2020-2022 Jeep Wrangler, Ram 1500, and 2021-2022 Jeep Gladiator vehicles equipped with 3.0L diesel engines.  The high pressure fuel pump (HPFP) may fail, causing an engine stall."
+        },
+        {
+          "component": "AIR BAGS",
+          "campaign": "19V407000",
+          "published_date": "31/05/2019",
+          "related_complaint_count": 21,
+          "summary": "Chrysler (FCA US LLC) is recalling certain 2019-2020 Ram 1500 vehicles.  The flash memory of the Occupant Restraint Controller (ORC) may become corrupted, disabling the vehicle's air bags and seat belt pretensioners."
+        },
+        {
+          "component": "AIR BAGS",
+          "campaign": "20V374000",
+          "published_date": "25/06/2020",
+          "related_complaint_count": 21,
+          "summary": "Chrysler (FCA US LLC) is recalling certain 2020 Ram Promaster vans and 1500 pickups.  The affected vehicles may have an improperly crimped diffuser in the side curtain airbag which may result in the diffuser detaching from the inflator in the event of an air bag deployment."
+        },
+        {
+          "component": "AIR BAGS",
+          "campaign": "25V298000",
+          "published_date": "08/05/2025",
+          "related_complaint_count": 21,
+          "summary": "Chrysler (FCA US, LLC) is recalling certain 2019-2024 Ram 1500 vehicles.  The driver's side air bag may not be connected properly, which can cause the air bag not to deploy as intended.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208,"
+        },
+        {
+          "component": "SEAT BELTS",
+          "campaign": "20V580000",
+          "published_date": "24/09/2020",
+          "related_complaint_count": 10,
+          "summary": "Chrysler (FCA US LLC) is recalling certain 2019 Jeep Wrangler and Ram 2500, 2019-2020 Ram 1500 and 2020 Jeep Gladiator vehicles.  In the event of a crash, a front seat belt retractor may not properly slow the occupant's forward movement after locking."
+        },
+        {
+          "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+          "campaign": "20V191000",
+          "published_date": "10/09/2020",
+          "related_complaint_count": 0,
+          "summary": "Chrysler (FCA US LLC) is recalling certain 2020 Jeep Gladiator and Jeep Cherokee, 2019-2020 Ram 1500 Pickup, Ram 2500 Pickup, Ram 3500 Pickup, Chrysler Pacifica, Dodge Durango, Jeep Grand Cherokee, Jeep Wrangler, and Jeep Renegade and 2019 Dodge Challenger vehicles equipped with 8.4\" or 12\" radio di"
+        },
+        {
+          "component": "VISIBILITY:WINDSHIELD WIPER",
+          "campaign": "20V208000",
+          "published_date": "09/04/2020",
+          "related_complaint_count": 0,
+          "summary": "Chrysler (FCA US LLC) is recalling certain 2019-2020 Ram 1500, 1500 Classic and Jeep Compass vehicles.  The windshield wiper arm or arms may loosen, possibly causing the wipers to not operate properly and reduce the driver's visibility in certain weather conditions."
+        },
+        {
+          "component": "VEHICLE SPEED CONTROL:ACCELERATOR PEDAL",
+          "campaign": "20V513000",
+          "published_date": "27/08/2020",
+          "related_complaint_count": 0,
+          "summary": "Chrysler (FCA US LLC) is recalling certain 2019-2020 Ram 1500 vehicles equipped with adjustable pedals.  In certain accelerator pedal positions, the floormats may prevent the pedal from returning to the normal resting (idle) position."
+        },
+        {
+          "component": "VISIBILITY:REARVIEW MIRRORS",
+          "campaign": "20V622000",
+          "published_date": "08/10/2020",
+          "related_complaint_count": 0,
+          "summary": "Chrysler (FCA US LLC) is recalling certain 2020 Ram 2500 and 1500 vehicles.  The driver side mirror glass can detach from the backing plate and no longer provide a reflective surface.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) numbe"
+        },
+        {
+          "component": "AIR BAGS:SIDE",
+          "campaign": "21V632000",
+          "published_date": "12/08/2021",
+          "related_complaint_count": 0,
+          "summary": "Chrysler (FCA US, LLC) is recalling certain 2015-2020 Ram 1500 Classic, 2015-2016 Ram 3500, and Ram 2500 vehicles, and 2016 Ram 3500 Cab Chassis with a gross vehicle weight rating less than 10,000 lbs.  The side air bag inflatable curtain (SABIC) inflator end cap may detach from the inflator, or the"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Ram&model=1500&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ram&model=1500&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:35+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:36+08:00",
+      "sha256_complaints": "3b716bf7a027ba386fb9bcf256a04a6d643e4ed3d2d18593689e8bcf06d4c8b5",
+      "sha256_recalls": "8511a222624ff0d390814dfe7b9aa9e063b130cbf6434e0893865008a1cdcfd9",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Ram_1500_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Ram_1500_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:36+08:00"
+    },
+    {
+      "make": "BMW",
+      "model": "X3",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 110,
+      "recall_count": 16,
+      "best_component": "ENGINE",
+      "best_campaign": "21V598000",
+      "best_published_date": "02/08/2021",
+      "best_related_complaint_count": 27,
+      "components": [
+        {
+          "component": "ENGINE",
+          "campaign": "21V598000",
+          "published_date": "02/08/2021",
+          "related_complaint_count": 27,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2020 M340i, M340i xDrive, 540i, 540i xDrive, X3 M40i, 2020-2021 X4 M40i, 745Le xDrive, 2019-2021 Z4 M40i, and 2020-2021 Toyota Supra vehicles.  During engine start, the engine management software may cause loss of braking assist.  Full mechanical "
+        },
+        {
+          "component": "STRUCTURE",
+          "campaign": "24V534000",
+          "published_date": "17/07/2024",
+          "related_complaint_count": 8,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2018-2023 X3 sDrive30i, X3 xDrive30i, X3 M40i, and X3 M vehicles.  The attachment for the interior cargo rail may become damaged in a rear crash and result in the cargo rail detaching."
+        },
+        {
+          "component": "STRUCTURE",
+          "campaign": "24V764000",
+          "published_date": "15/10/2024",
+          "related_complaint_count": 8,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2018-2022 X3 sDrive30i, X3 xDrive30i, X3 M40i, and X3 M vehicles.  The attachment for the rear cargo rail may become damaged in a rear crash and result in the cargo rail detaching."
+        },
+        {
+          "component": "SEATS",
+          "campaign": "23V211000",
+          "published_date": "29/03/2023",
+          "related_complaint_count": 1,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2019-2021 330i, 330i xDrive, M340i xDrive, 2020-2021 X3 sDrive30i, X3 xDrive30i, X3 M40i, X3M, 2021 X3 xDrive30e, X4 xDrive30i, and X4M vehicles.  The seat frame may not have been welded properly to the seat rails."
+        },
+        {
+          "component": "SUSPENSION:FRONT",
+          "campaign": "19V678000",
+          "published_date": "25/09/2019",
+          "related_complaint_count": 0,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2020 X3 sDrive30i, X3 xDrive30i, and X3 M40i vehicles, X4 xDrive30i, and X4 M40i vehicles.  The front axle swivel bearings may not have been properly heat treated during manufacturing, reducing their strength and possibly causing them to break."
+        },
+        {
+          "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+          "campaign": "19V684000",
+          "published_date": "28/09/2019",
+          "related_complaint_count": 0,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2018 540d, 2018-2020 530i, 530i xDrive, 540i, 540i xDrive, M550i xDrive, M5, 530e, 530e xDrive, X3 sDrive, X3 xDrive, X3 M40i, X3 M, and 2019-2020 X4 xDrive, X4 M40i, X4 M, X7 xDrive, X7 M50i, 740Li, 740Li xDrive, 750Li, 750Li xDrive, 8 Series Con"
+        },
+        {
+          "component": "STEERING:RACK AND PINION:PINION SHAFT",
+          "campaign": "19V738000",
+          "published_date": "16/10/2019",
+          "related_complaint_count": 0,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2020 BMW X3 M40i and X4 M40i vehicles.  The steering rack pinion teeth may break under load, resulting in a loss of steering control."
+        },
+        {
+          "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER",
+          "campaign": "20V152000",
+          "published_date": "18/03/2020",
+          "related_complaint_count": 0,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2019-2020 X4 xDrive30i and X4 M40i, and 2018-2020 X3 sDrive30i, X3 xDrive30i, X3 M40i, and X3M vehicles.  The instrument panel casing may not have been tightened properly to the passenger air bag."
+        },
+        {
+          "component": "SEAT BELTS:FRONT:BUCKLE ASSEMBLY",
+          "campaign": "20V164000",
+          "published_date": "19/03/2020",
+          "related_complaint_count": 0,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2020 X3 xDrive30e, X4 xDrive30i, X4 M40i, X4M, 330i, 330i xDrive, M340i, 840i Gran Coupe, 840i xDrive Gran Coupe, M850i xDrive Gran Coupe, M8 Gran Coupe, X3 sDrive30i, X3 xDrive30i, X3 M40i, X3M, and 840i xDrive Convertible vehicles.  The sensors "
+        },
+        {
+          "component": "STEERING:LINKAGES:TIE ROD ASSEMBLY",
+          "campaign": "20V355000",
+          "published_date": "15/06/2020",
+          "related_complaint_count": 0,
+          "summary": "BMW of North America, LLC (BMW) is recalling certain 2019 Z4 sDrive30i, 2019-2020 330i xDrive, M340i and M340i xDrive, 2020 X3M and X4M, and Toyota Supra vehicles.  In certain driving conditions, such as high temperatures and rough road surfaces, a steering gear tie rod may become damaged, possibly "
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=BMW&model=X3&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=BMW&model=X3&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:31+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:32+08:00",
+      "sha256_complaints": "b63e8bf07786dda6e76ebfce3bd8dee7a3e8a820437d1ae10db1dc62236dc94f",
+      "sha256_recalls": "9732bfb8c5a4add7f2b8bf33a70bc4621e57ed62f5d1c464aec3439d627e77aa",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/BMW_X3_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/BMW_X3_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:32+08:00"
+    },
+    {
+      "make": "Subaru",
+      "model": "Outback",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 902,
+      "recall_count": 6,
+      "best_component": "SERVICE BRAKES",
+      "best_campaign": "19V664000",
+      "best_published_date": "18/09/2019",
+      "best_related_complaint_count": 15,
+      "components": [
+        {
+          "component": "SERVICE BRAKES",
+          "campaign": "19V664000",
+          "published_date": "18/09/2019",
+          "related_complaint_count": 15,
+          "summary": "Subaru of America, Inc. (Subaru) is recalling certain 2020 Outback and Legacy vehicles.  The brake pedal mounting bracket may have a missing or insufficiently tightened bolt."
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "21V587000",
+          "published_date": "29/07/2021",
+          "related_complaint_count": 1,
+          "summary": "Subaru of America, Inc. (Subaru) is recalling certain 2019-2020 Ascent, 2018 Forester, 2018-2020 Impreza, Legacy, Outback, 2018-2019 BRZ, WRX, and Toyota 86 vehicles.  The low-pressure fuel pump inside the fuel tank may fail."
+        },
+        {
+          "component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+          "campaign": "20V766000",
+          "published_date": "10/12/2020",
+          "related_complaint_count": 0,
+          "summary": "Subaru of America, Inc. (Subaru) is recalling certain 2020 Legacy and Outback vehicles equipped with \"high\" grade and \"mid\" grade multimedia navigation.  The August 2020 over-the-air software update may have timed out without completing the installation, corrupting the data, and causing the rearview"
+        },
+        {
+          "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:CONTROL MODULE (TCM",
+          "campaign": "21V955000",
+          "published_date": "09/12/2021",
+          "related_complaint_count": 0,
+          "summary": "Subaru of America, Inc. (Subaru) is recalling certain 2019-2020 Ascent, 2020 Legacy and Outback vehicles.  A programming error in the Transmission Control Unit (TCU) may allow the clutch to engage before the drive chain is completely clamped."
+        },
+        {
+          "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:CONTROL MODULE (TCM",
+          "campaign": "22V485000",
+          "published_date": "08/07/2022",
+          "related_complaint_count": 0,
+          "summary": "Subaru of America, Inc. (Subaru) is recalling certain 2020-2021 Outback and Legacy vehicles.  A programming error in the Transmission Control Unit (TCU) may allow the clutch to engage before the drive chain is completely clamped."
+        },
+        {
+          "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION:FRONT PASSENGER",
+          "campaign": "24V227000",
+          "published_date": "22/03/2024",
+          "related_complaint_count": 0,
+          "summary": "Subaru of America, Inc. (Subaru) is recalling certain 2020-2022 Outback and Legacy vehicles.  A capacitor in the sensors for the Occupant Detection System (ODS) may crack and short circuit, which can prevent the front passenger air bag from deploying in a crash."
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Subaru&model=Outback&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Subaru&model=Outback&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:33+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:34+08:00",
+      "sha256_complaints": "a139867c73e33ae90e2e1da9cf8228744c20c810c1ea9b4732565935199571a7",
+      "sha256_recalls": "1bbe433d2255fccaacbc9496677deb28668b73b0d77e222ec3c8df2e9631dfaa",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Subaru_Outback_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Subaru_Outback_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:34+08:00"
+    },
+    {
+      "make": "Toyota",
+      "model": "RAV4",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 639,
+      "recall_count": 6,
+      "best_component": "ENGINE AND ENGINE COOLING",
+      "best_campaign": "20V064000",
+      "best_published_date": "06/02/2020",
+      "best_related_complaint_count": 15,
+      "components": [
+        {
+          "component": "ENGINE AND ENGINE COOLING",
+          "campaign": "20V064000",
+          "published_date": "06/02/2020",
+          "related_complaint_count": 15,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2020 Toyota Avalon Hybrid, Camry, Camry Hybrid and  Lexus ES300h and 2019-2020 RAV4 and RAV4 Hybrid vehicles equipped with 2.5L 4-Cylinder engines.  Porosity in the engine castings may result in cracks than can allow coolant to l"
+        },
+        {
+          "component": "SUSPENSION:FRONT:CONTROL ARM:LOWER ARM",
+          "campaign": "20V286000",
+          "published_date": "20/05/2020",
+          "related_complaint_count": 0,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2019-2020 RAV4 and RAV4 Hybrid vehicles.  The front lower suspension arms may have cracks, which may result in the suspension arm separating from the front wheel assembly."
+        },
+        {
+          "component": "STEERING:ELECTRIC POWER ASSIST SYSTEM",
+          "campaign": "20V373000",
+          "published_date": "24/06/2020",
+          "related_complaint_count": 0,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2019-2020 RAV4 and 2020 RAV4 Hybrid vehicles equipped with electric power steering (EPS).  Water may enter through the steering gear box cover and cause a loss of electric power steering assist."
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "20V682000",
+          "published_date": "04/11/2020",
+          "related_complaint_count": 0,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2018-2019 4Runner, 2019-2020 Avalon, 2019 Corolla Hatchback, 2017-2019 Highlander, 2018-2020 Camry, 2020 Corolla, 2018-2019 Land Cruiser, 2017-2020 Tacoma, 2019-2020 RAV4, 2019-2020 Sequoia, 2017-2020 Sienna, 2019-2020 Tundra, 20"
+        },
+        {
+          "component": "AIR BAGS:FRONTAL",
+          "campaign": "20V734000",
+          "published_date": "25/11/2020",
+          "related_complaint_count": 0,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2020-2021 Toyota Avalon and 2020 Avalon Hybrid, RAV4, and RAV4 Hybrid vehicles.  Breakaway pins within the steering column, designed to absorb energy and reduce injury during a crash, could have been damaged during production, po"
+        },
+        {
+          "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION",
+          "campaign": "23V865000",
+          "published_date": "20/12/2023",
+          "related_complaint_count": 0,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2020-2021 Avalon, Avalon Hybrid, Corolla, Highlander, Highlander Hybrid, RAV4, RAV4 Hybrid, Lexus ES350, Lexus RX350, Lexus RX450H, 2021 Sienna Hybrid, Lexus ES250, 2020-2022 Camry, Camry Hybrid, and ES300H vehicles.  A short cir"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Toyota&model=RAV4&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=RAV4&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:25+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:26+08:00",
+      "sha256_complaints": "7aa8217a6a93d79d779acc53c93dab2d60e02653c3814687ad6835cb995850e5",
+      "sha256_recalls": "abebc85d0c89f8f93dcb8b677ced326ba00027a352c1758d896467bd4322ddf0",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Toyota_RAV4_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Toyota_RAV4_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:26+08:00"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Sonata",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 182,
+      "recall_count": 4,
+      "best_component": "FUEL SYSTEM",
+      "best_campaign": "25V796000",
+      "best_published_date": "18/11/2025",
+      "best_related_complaint_count": 12,
+      "components": [
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "25V796000",
+          "published_date": "18/11/2025",
+          "related_complaint_count": 12,
+          "summary": "Hyundai Motor America (Hyundai) is recalling certain 2020-2023 Sonata vehicles. A damaged check valve can allow air to enter the fuel tank, causing it to expand and contact hot exhaust components, melting the tank."
+        },
+        {
+          "component": "LATCHES",
+          "campaign": "22V196000",
+          "published_date": "28/03/2022",
+          "related_complaint_count": 1,
+          "summary": "Hyundai Motor America (Hyundai) is recalling certain 2020 Sonata and Sonata Hybrid, and 2019 Genesis G70 vehicles.  The trunk latch may become damaged, preventing the opening of the trunk from the inside.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety S"
+        },
+        {
+          "component": "EQUIPMENT:OTHER:LABELS",
+          "campaign": "20V122000",
+          "published_date": "28/02/2020",
+          "related_complaint_count": 0,
+          "summary": "Hyundai Motor America (Hyundai) is recalling certain 2020 Sonata vehicles produced between October 22, 2019 and February 13, 2020.  The tire pressure label inside the driver's door and the owner's manual state an incorrect tire size.  As such, these vehicles fail to comply with the requirements of F"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:SOFTWARE",
+          "campaign": "20V213000",
+          "published_date": "09/04/2020",
+          "related_complaint_count": 0,
+          "summary": "Hyundai Motor America (Hyundai) is recalling certain 2020 Nexo and Sonata vehicles.  The Remote Smart Parking Assist (RSPA) software may fail to prevent vehicle movement upon detection of an RSPA system malfunction."
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Hyundai&model=Sonata&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Hyundai&model=Sonata&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:27+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:28+08:00",
+      "sha256_complaints": "c0f58201a7ab17478ebaa552020de4241aea836b50e6281522f5a834b02377f0",
+      "sha256_recalls": "75c85baedb53c7bfe9bd806085cfe2d5fefb6e6cf7ff0c49f198e2a397bf9839",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Hyundai_Sonata_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Hyundai_Sonata_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:28+08:00"
+    },
+    {
+      "make": "Honda",
+      "model": "Accord",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 368,
+      "recall_count": 5,
+      "best_component": "FUEL SYSTEM",
+      "best_campaign": "21V215000",
+      "best_published_date": "25/03/2021",
+      "best_related_complaint_count": 11,
+      "components": [
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "21V215000",
+          "published_date": "25/03/2021",
+          "related_complaint_count": 11,
+          "summary": "Honda (American Honda Motor Co.) is recalling certain 2019-2020 Acura MDX, MDX Sport Hybrid, RDX, TLX, Honda Accord, Civic Hatchback, Insight, 2019 Acura ILX, Honda Accord Hybrid, Civic Coupe, Civic Coupe Si, Civic Sedan, Civic Sedan Si, Civic Type R, Fit, HR-V, Odyssey, Passport, Pilot and Ridgelin"
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "23V858000",
+          "published_date": "19/12/2023",
+          "related_complaint_count": 11,
+          "summary": "Honda (American Honda Motor Co.) is recalling certain 2013-2023 Honda Accord, Civic Coupe, Civic Sedan, Civic Hatchback, Civic Type R, CR-V, HR-V, Ridgeline, Odyssey, Acura ILX, MDX, MDX Hybrid, RDX, RLX, TLX, 2019-2022 Honda Insight, Passport, 2020 Honda CR-V Hybrid, 2018-2019 Honda Clarity PHEV, F"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:BODY CONTROL MODULE:SOFTWARE",
+          "campaign": "20V771000",
+          "published_date": "10/12/2020",
+          "related_complaint_count": 0,
+          "summary": "Honda (American Honda Motor Co.) is recalling certain 2018-2020 Accord Sedan, Accord Hybrid, and 2019-2020 Insight vehicles.  A software error may cause intermittent or continuous disruptions in communication between the Body Control Module (BCM) and other components.  This may result in malfunction"
+        },
+        {
+          "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION:FRONT PASSENGER",
+          "campaign": "24V064000",
+          "published_date": "01/02/2024",
+          "related_complaint_count": 0,
+          "summary": "Honda (American Honda Motor Co.) is recalling certain 2020-2022 Pilot, Accord, Civic sedan, HR-V, Odyssey, 2020 Civic coupe, Fit, 2021-2022 Civic hatchback, 2021 Civic Type R, Insight, 2020-2021 CR-V, CR-V Hybrid, Passport, Ridgeline, Accord Hybrid, 2020 Acura MDX, 2022 Acura MDX, 2020-2022 Acura RD"
+        },
+        {
+          "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION:FRONT PASSENGER",
+          "campaign": "26V332000",
+          "published_date": "22/05/2026",
+          "related_complaint_count": 0,
+          "summary": "Honda (American Honda Motor Co.) is recalling certain 2018-2021, 2023 Acura TLX, 2019-2024 RDX, 2017-2020, 2022-2026 MDX, 2017-2021, 2023, 2025 Honda Ridgeline, 2017-2022 Pilot, 2019-2021 Passport, 2018-2026 Odyssey, 2019-2022 Insight, 2019-2021 HR-V, 2018-2020 Fit, 2020-2022 CR-V Hybrid, 2017-2022 "
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Honda&model=Accord&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Honda&model=Accord&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:31+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:32+08:00",
+      "sha256_complaints": "b75dae6c2f8d2cc723582923b637e5471f03412c2a2ce19620bbaf7d7e0f6866",
+      "sha256_recalls": "4f820fbdee944670b7f439fc5e3d3e5edc123f70a09d8dab6c111a9f29652bba",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Honda_Accord_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Honda_Accord_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:32+08:00"
+    },
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 241,
+      "recall_count": 3,
+      "best_component": "ENGINE AND ENGINE COOLING",
+      "best_campaign": "23V411000",
+      "best_published_date": "08/06/2023",
+      "best_related_complaint_count": 6,
+      "components": [
+        {
+          "component": "ENGINE AND ENGINE COOLING",
+          "campaign": "23V411000",
+          "published_date": "08/06/2023",
+          "related_complaint_count": 6,
+          "summary": "Chrysler (FCA US, LLC) is recalling certain 2014-2019 Ram 1500 and 2014-2020 Jeep Grand Cherokee vehicles equipped with 3.0L Diesel engines.  The crankshaft position sensor tone wheel may delaminate, causing the engine to lose its ability to synchronize the fuel injector pulses and cam shaft timing,"
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "22V406000",
+          "published_date": "09/06/2022",
+          "related_complaint_count": 4,
+          "summary": "Chrysler (FCA US, LLC) is recalling certain 2014-2020 Jeep Grand Cherokee, and 2014-2019 Ram 1500 vehicles equipped with 3.0L diesel engines.  A high pressure fuel pump (HPFP) failure may introduce internal debris into the fuel system, potentially resulting in fuel starvation."
+        },
+        {
+          "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+          "campaign": "20V191000",
+          "published_date": "10/09/2020",
+          "related_complaint_count": 0,
+          "summary": "Chrysler (FCA US LLC) is recalling certain 2020 Jeep Gladiator and Jeep Cherokee, 2019-2020 Ram 1500 Pickup, Ram 2500 Pickup, Ram 3500 Pickup, Chrysler Pacifica, Dodge Durango, Jeep Grand Cherokee, Jeep Wrangler, and Jeep Renegade and 2019 Dodge Challenger vehicles equipped with 8.4\" or 12\" radio di"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Jeep&model=Grand+Cherokee&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Jeep&model=Grand+Cherokee&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:30+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:30+08:00",
+      "sha256_complaints": "b563e05da7bbd55c33be7980ce53f8a587c8a0a323e7887b7b6dda387a0ccc39",
+      "sha256_recalls": "2e5b34ecb8ad0fc96ba786b365cc92ceddb632567590a0ca92850db3d2703e14",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Jeep_Grand_Cherokee_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Jeep_Grand_Cherokee_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:30+08:00"
+    },
+    {
+      "make": "Toyota",
+      "model": "Camry",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 275,
+      "recall_count": 3,
+      "best_component": "ENGINE AND ENGINE COOLING",
+      "best_campaign": "20V064000",
+      "best_published_date": "06/02/2020",
+      "best_related_complaint_count": 4,
+      "components": [
+        {
+          "component": "ENGINE AND ENGINE COOLING",
+          "campaign": "20V064000",
+          "published_date": "06/02/2020",
+          "related_complaint_count": 4,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2020 Toyota Avalon Hybrid, Camry, Camry Hybrid and  Lexus ES300h and 2019-2020 RAV4 and RAV4 Hybrid vehicles equipped with 2.5L 4-Cylinder engines.  Porosity in the engine castings may result in cracks than can allow coolant to l"
+        },
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "20V682000",
+          "published_date": "04/11/2020",
+          "related_complaint_count": 3,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2018-2019 4Runner, 2019-2020 Avalon, 2019 Corolla Hatchback, 2017-2019 Highlander, 2018-2020 Camry, 2020 Corolla, 2018-2019 Land Cruiser, 2017-2020 Tacoma, 2019-2020 RAV4, 2019-2020 Sequoia, 2017-2020 Sienna, 2019-2020 Tundra, 20"
+        },
+        {
+          "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION",
+          "campaign": "23V865000",
+          "published_date": "20/12/2023",
+          "related_complaint_count": 0,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2020-2021 Avalon, Avalon Hybrid, Corolla, Highlander, Highlander Hybrid, RAV4, RAV4 Hybrid, Lexus ES350, Lexus RX350, Lexus RX450H, 2021 Sienna Hybrid, Lexus ES250, 2020-2022 Camry, Camry Hybrid, and ES300H vehicles.  A short cir"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Toyota&model=Camry&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=Camry&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:25+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:26+08:00",
+      "sha256_complaints": "dc2e3932b76855c254d05f734bf7ddc5cfb5512a058ef3edd872e1a825ff9833",
+      "sha256_recalls": "5ed45bc7a6de116ad93fa048074d88e3a96967d7336bf6bc2828e0538b403759",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Toyota_Camry_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Toyota_Camry_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:26+08:00"
+    },
+    {
+      "make": "Toyota",
+      "model": "Corolla",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 313,
+      "recall_count": 3,
+      "best_component": "FUEL SYSTEM",
+      "best_campaign": "20V682000",
+      "best_published_date": "04/11/2020",
+      "best_related_complaint_count": 3,
+      "components": [
+        {
+          "component": "FUEL SYSTEM",
+          "campaign": "20V682000",
+          "published_date": "04/11/2020",
+          "related_complaint_count": 3,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2018-2019 4Runner, 2019-2020 Avalon, 2019 Corolla Hatchback, 2017-2019 Highlander, 2018-2020 Camry, 2020 Corolla, 2018-2019 Land Cruiser, 2017-2020 Tacoma, 2019-2020 RAV4, 2019-2020 Sequoia, 2017-2020 Sienna, 2019-2020 Tundra, 20"
+        },
+        {
+          "component": "SEAT BELTS: REAR",
+          "campaign": "19V877000",
+          "published_date": "11/12/2019",
+          "related_complaint_count": 0,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2019-2020 C-HR and 2020 Corolla and Corolla Hybrid vehicles equipped with rear seat belt assemblies with a dual-mode locking mechanism.  The seat belt webbing sensor locking mechanism may not lock as intended."
+        },
+        {
+          "component": "AIR BAGS:SENSOR:OCCUPANT CLASSIFICATION",
+          "campaign": "23V865000",
+          "published_date": "20/12/2023",
+          "related_complaint_count": 0,
+          "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2020-2021 Avalon, Avalon Hybrid, Corolla, Highlander, Highlander Hybrid, RAV4, RAV4 Hybrid, Lexus ES350, Lexus RX350, Lexus RX450H, 2021 Sienna Hybrid, Lexus ES250, 2020-2022 Camry, Camry Hybrid, and ES300H vehicles.  A short cir"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Toyota&model=Corolla&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Toyota&model=Corolla&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:25+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:26+08:00",
+      "sha256_complaints": "dca28f73d562d9c00b431157b906063efd2fbc20794981ea2846daca5f70ee8c",
+      "sha256_recalls": "655a4ac092c2335fc415604fed999676a6d5ec1b6554a372ebe9ece9622308be",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Toyota_Corolla_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Toyota_Corolla_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:26+08:00"
+    },
+    {
+      "make": "Nissan",
+      "model": "Altima",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 182,
+      "recall_count": 6,
+      "best_component": "TIRES",
+      "best_campaign": "20V685000",
+      "best_published_date": "05/11/2020",
+      "best_related_complaint_count": 3,
+      "components": [
+        {
+          "component": "TIRES",
+          "campaign": "20V685000",
+          "published_date": "05/11/2020",
+          "related_complaint_count": 3,
+          "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2020 Altima S grade vehicles equipped with Continental ProContact TX tires, size 215/60 R16 H, with TIN date code 3320 and Mold ID S-419149.  The tires may have been over cured."
+        },
+        {
+          "component": "TIRES",
+          "campaign": "21V169000",
+          "published_date": "11/03/2021",
+          "related_complaint_count": 3,
+          "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2019-2020 Altima and 2018-2021 Titan vehicles equipped with Continental tires.  On the affected vehicles, it is possible that one or more tires were cured for too long during tire production."
+        },
+        {
+          "component": "VISIBILITY:GLASS",
+          "campaign": "20V570000",
+          "published_date": "22/09/2020",
+          "related_complaint_count": 0,
+          "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2020 Altima, Maxima and Leaf vehicles.  The rear window glass may not remain properly secured to the vehicle."
+        },
+        {
+          "component": "STEERING:LINKAGES:TIE ROD ASSEMBLY",
+          "campaign": "21V138000",
+          "published_date": "04/03/2021",
+          "related_complaint_count": 0,
+          "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2020-2021 Nissan Altima vehicles.  The tie rod ball joint fastener was not tightened properly, which could result in the tie rod ball joint detaching from the steering knuckle."
+        },
+        {
+          "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+          "campaign": "23V628000",
+          "published_date": "08/09/2023",
+          "related_complaint_count": 0,
+          "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2019-2021 Altima and 2020-2021 Sentra vehicles.  Damage to the camera harness can cause distortion or loss of the rearview camera display image.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Stan"
+        },
+        {
+          "component": "ENGINE AND ENGINE COOLING:ENGINE:HARD PARTS INTERNAL",
+          "campaign": "25V437000",
+          "published_date": "27/06/2025",
+          "related_complaint_count": 0,
+          "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2021-2024 Rogue, 2019-2020 Altima, 2019-2022 Infiniti QX50, and 2022 Infiniti QX55 vehicles equipped with 3-cylinder 1.5L or 4-cylinder 2.0L variable compression turbo (VC-Turbo) engines. The engine bearings may have manufacturing defects that"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Nissan&model=Altima&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=Altima&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:29+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:30+08:00",
+      "sha256_complaints": "fb542484afaada38f39b9e6480dd6aaff946ac1f7dfc0cafb8129f087cf8bd6d",
+      "sha256_recalls": "f81ee448883fcd4c83600fead36ac6e66e4608cd1884ae064b909e9c09cc0c8e",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Nissan_Altima_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Nissan_Altima_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:30+08:00"
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 141,
+      "recall_count": 3,
+      "best_component": "SEAT BELTS",
+      "best_campaign": "20V579000",
+      "best_published_date": "23/09/2020",
+      "best_related_complaint_count": 3,
+      "components": [
+        {
+          "component": "SEAT BELTS",
+          "campaign": "20V579000",
+          "published_date": "23/09/2020",
+          "related_complaint_count": 3,
+          "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2020 Tiguan LWB vehicles.  The third row seat belt anchor bolts may not have been properly torqued."
+        },
+        {
+          "component": "SEATS",
+          "campaign": "20V505000",
+          "published_date": "26/08/2020",
+          "related_complaint_count": 1,
+          "summary": "Volkswagen Group of America, Inc. (Volkswagen ) is recalling certain 2020 Volkswagen Atlas Cross Sport, Jetta, Jetta GLI and Tiguan and Audi Q5 and SQ5 and 2021 Volkswagen Atlas vehicles.  Parts of the front seat frame and backrest adjuster may not have been welded properly."
+        },
+        {
+          "component": "STRUCTURE:BODY",
+          "campaign": "22V226000",
+          "published_date": "06/04/2022",
+          "related_complaint_count": 0,
+          "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2022 Tiguan and 2018-2021 Tiguan long wheel base (LWB) vehicles.  Due to incorrect installation instructions, the accessory rear hatch spoiler may be insufficiently attached to the vehicle."
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Volkswagen&model=Tiguan&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Volkswagen&model=Tiguan&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:32+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:32+08:00",
+      "sha256_complaints": "f79e145b6cf6f6bf169f34d178427c355713f8aff96c7dd568f2e373beb35922",
+      "sha256_recalls": "475bd93dff38980650d594372aa2ec64e94c2695ac5cc608718046d29d11d4b3",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Volkswagen_Tiguan_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Volkswagen_Tiguan_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:32+08:00"
+    },
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 153,
+      "recall_count": 1,
+      "best_component": "ELECTRICAL SYSTEM:IGNITION:ANTI-THEFT:IMMOBILIZER",
+      "best_campaign": "23V093000",
+      "best_published_date": "16/02/2023",
+      "best_related_complaint_count": 0,
+      "components": [
+        {
+          "component": "ELECTRICAL SYSTEM:IGNITION:ANTI-THEFT:IMMOBILIZER",
+          "campaign": "23V093000",
+          "published_date": "16/02/2023",
+          "related_complaint_count": 0,
+          "summary": "Nissan North America, Inc. (Nissan) is recalling certain 2014-2020 Rogue and 2017-2022 Rogue Sport vehicles equipped with a jackknife style ignition key.  The jackknife key may collapse into a folded position while driving."
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Nissan&model=Rogue&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Nissan&model=Rogue&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:29+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:29+08:00",
+      "sha256_complaints": "7f510af90cbfefa1d84073434437350db1bacb3b12747ec18bf5552fb5401bb4",
+      "sha256_recalls": "a57f08b6830f0d5ddae02d41a8695e90ccf97343a0c775477e39ced33bbe500a",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Nissan_Rogue_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Nissan_Rogue_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:29+08:00"
+    },
+    {
+      "make": "Mazda",
+      "model": "CX-5",
+      "model_year": 2020,
+      "status": "partial",
+      "complaint_count": 108,
+      "recall_count": 0,
+      "best_component": null,
+      "best_campaign": null,
+      "best_published_date": null,
+      "best_related_complaint_count": 0,
+      "components": [],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Mazda&model=CX-5&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Mazda&model=CX-5&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 400,
+      "complaints_retrieved_at": "2026-10-31T12:42:32+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:33+08:00",
+      "sha256_complaints": "dcec3790a9847b37d700432d7c6287e733e50ea75f70fb3d300490df877fe190",
+      "sha256_recalls": "74147c27e8c00a68fa4708025f0aa95a3dbb3bea68b4d5417efb2bef19d1e786",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Mazda_CX_5_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Mazda_CX_5_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:33+08:00"
+    },
+    {
+      "make": "Kia",
+      "model": "Forte",
+      "model_year": 2020,
+      "status": "partial",
+      "complaint_count": 78,
+      "recall_count": 0,
+      "best_component": null,
+      "best_campaign": null,
+      "best_published_date": null,
+      "best_related_complaint_count": 0,
+      "components": [],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Kia&model=Forte&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Kia&model=Forte&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 400,
+      "complaints_retrieved_at": "2026-10-31T12:42:28+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:28+08:00",
+      "sha256_complaints": "d6641b35383f0c14117aef6afdcfae9851ce564d176f52409da6a95c99676355",
+      "sha256_recalls": "74147c27e8c00a68fa4708025f0aa95a3dbb3bea68b4d5417efb2bef19d1e786",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Kia_Forte_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Kia_Forte_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:28+08:00"
+    },
+    {
+      "make": "Ford",
+      "model": "F-150",
+      "model_year": 2020,
+      "status": "ok",
+      "complaint_count": 56,
+      "recall_count": 11,
+      "best_component": "SEATS:FRONT ASSEMBLY:RECLINER",
+      "best_campaign": "19V633000",
+      "best_published_date": "28/08/2019",
+      "best_related_complaint_count": 0,
+      "components": [
+        {
+          "component": "SEATS:FRONT ASSEMBLY:RECLINER",
+          "campaign": "19V633000",
+          "published_date": "28/08/2019",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2018-2020 F-150 and 2019-2020 F-250, F-350, F-450, and F-550 Super Duty pickup trucks, and 2018-2019 Ford Explorer, 2019-2020 Expedition, and 2020 Escape vehicles equipped with driver and/or passenger's manual front seat back recliner mechanisms.  Also "
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:12V",
+          "campaign": "19V805000",
+          "published_date": "12/11/2019",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2019-2020 F-150 vehicles. The fastener securing the Power Distribution Box (PDB) 12V cable and Battery Monitoring System (BMS) eyelets to the positive battery terminal may loosen and affect the vehicle's systems such as instrument panel displays and bra"
+        },
+        {
+          "component": "TIRES:BEAD",
+          "campaign": "19V903000",
+          "published_date": "18/12/2019",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 F-150 trucks equipped with 17-inch spare tires.  The spare tire could have been damaged when it was installed on the rim."
+        },
+        {
+          "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+          "campaign": "20V097000",
+          "published_date": "21/02/2020",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2018-2020 F-150 trucks equipped with high series LED headlamps with Autolamp (On/Off) functionality.  The Daytime Running Lamps (DRL) may remain activated instead of dimming to parking lamps when the Master Lighting Switch (MLS) is manually rotated from"
+        },
+        {
+          "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:GEAR POSITION INDICATION (PRNDL)",
+          "campaign": "20V197000",
+          "published_date": "03/04/2020",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 Ranger and F-150 vehicles equipped with 10-speed automatic transmissions and certain 2020 Expedition vehicles equipped with a \"police\" package.  The transmission shift cable lock clip may not be fully seated, allowing the transmission to actually b"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:STARTER ASSEMBLY",
+          "campaign": "20V467000",
+          "published_date": "10/08/2020",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 F-150 vehicles.  An incorrect attachment nut may have been used to attach the battery positive (B+) power supply cable to the starter motor, possibly affecting the electrical conductivity, resulting in excess heat and electrical arcing."
+        },
+        {
+          "component": "BACK OVER PREVENTION: SENSING SYSTEM: CAMERA",
+          "campaign": "20V575000",
+          "published_date": "23/09/2020",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020 Ford F-150, F-250, F-350, F-450, F-550, Explorer, Mustang, Transit, Expedition, Escape, Ranger and Edge, and Lincoln Nautilus and Corsair vehicles.  Due to a poor electrical connection, the rearview camera may intermittently display a blank or dist"
+        },
+        {
+          "component": "VISIBILITY:WINDSHIELD WIPER",
+          "campaign": "22V250000",
+          "published_date": "14/04/2022",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2021 F-150, Expedition, 2020-2022 Super Duty F-250, F-350, F-450, F-550, and 2020-2021 Lincoln Navigator vehicles.  The windshield wiper arms may break, causing the windshield wipers to fail."
+        },
+        {
+          "component": "EQUIPMENT:OTHER:LABELS",
+          "campaign": "24V852000",
+          "published_date": "08/11/2024",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2020-2025 Explorer, Lincoln Aviator, 2020-2024 Escape, Lincoln Corsair, 2018-2024 F-150, Expedition and Lincoln Navigator vehicles.  The air bag warning label may be missing from the dashboard.  As such, these vehicles fail to comply with the requiremen"
+        },
+        {
+          "component": "BACK OVER PREVENTION:SOFTWARE",
+          "campaign": "25V442000",
+          "published_date": "27/06/2025",
+          "related_complaint_count": 0,
+          "summary": "Ford Motor Company (Ford) is recalling certain 2018-2022 Transit Connect, 2019-2020 MKZ, MKX,  Edge, Continental, F-150, Nautilus, Fusion, 2019-2023 Ranger, Mustang, 2020-2021 EcoSport, Expedition, Navigator, 2020-2022 Escape, F-250 SD, Corsair, 2020-2023 Aviator, Transit, 2020-2024 Explorer, 2021-2"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Ford&model=F-150&modelYear=2020",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Ford&model=F-150&modelYear=2020",
+      "complaints_http_status": 200,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:23+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:24+08:00",
+      "sha256_complaints": "42d6302dcda68aed33db65bc9e85aace51e8c48595da13214abf2d0a5b951284",
+      "sha256_recalls": "b3fea11b9a17b4482bc83648f07074d579e495898e56e4274596e21ce85dd41d",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Ford_F_150_2020_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Ford_F_150_2020_recalls.json",
+      "screened_at": "2026-10-31T12:42:24+08:00"
+    },
+    {
+      "make": "Tesla",
+      "model": "Model Y",
+      "model_year": 2021,
+      "status": "partial",
+      "complaint_count": 0,
+      "recall_count": 23,
+      "best_component": "SERVICE BRAKES",
+      "best_campaign": "21V387000",
+      "best_published_date": "25/05/2021",
+      "best_related_complaint_count": 0,
+      "components": [
+        {
+          "component": "SERVICE BRAKES",
+          "campaign": "21V387000",
+          "published_date": "25/05/2021",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2019-2021 Model 3 and 2020-2021 Model Y vehicles.  The brake caliper bolts may be loose, allowing the brake caliper to separate and contact the wheel rim."
+        },
+        {
+          "component": "SEAT BELTS:REAR",
+          "campaign": "21V388000",
+          "published_date": "25/05/2021",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2019-2021 Model Y vehicles.  One or both fasteners that secure the left and right second row seat belt retractors may not be properly attached."
+        },
+        {
+          "component": "SEAT BELTS",
+          "campaign": "21V389000",
+          "published_date": "25/05/2021",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2018-2020 Model 3 and 2019-2021 Model Y vehicles.  One or both fasteners that secure the front seat shoulder belt to the b-pillar may not be properly attached."
+        },
+        {
+          "component": "SUSPENSION:CRITICAL FASTENERS",
+          "campaign": "21V835000",
+          "published_date": "25/10/2021",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2021 Model Y and 2019-2021 Model 3 vehicles.  The front suspension lateral link fasteners may loosen, allowing the lateral link to separate from the sub-frame."
+        },
+        {
+          "component": "FORWARD COLLISION AVOIDANCE: SENSING SYSTEM: CAMERA",
+          "campaign": "21V846000",
+          "published_date": "29/10/2021",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2017-2021 Model S, Model 3, Model X, and 2020-2021 Model Y vehicles operating software version 2021.36.5.2.  A communication error may cause false forward-collision warning (FCW) or unexpected activation of the automatic emergency brake (AEB) system."
+        },
+        {
+          "component": "SUSPENSION",
+          "campaign": "21V912000",
+          "published_date": "21/11/2021",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2022 Model Y vehicles.  The front and rear suspension knuckles may fracture, causing the suspension links to separate."
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:ADAS:AUTONOMOUS",
+          "campaign": "22V037000",
+          "published_date": "27/01/2022",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2016-2022 Model S and Model X, 2017-2022 Model 3, and 2020-2022 Model Y vehicles.  The \"rolling stop\" functionality available as part of the Full Self-Driving (Beta) software may allow the vehicle to travel through an all-way stop intersection without first c"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:SOFTWARE",
+          "campaign": "22V045000",
+          "published_date": "01/02/2022",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2021-2022 Model S and Model X, 2017-2022 Model 3, and 2020-2022 Model Y vehicles.  The audible chime may not activate when the vehicle starts and the driver has not buckled their seat belt.  As such, these vehicles fail to comply with the requirements of Fede"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:SOFTWARE",
+          "campaign": "22V050000",
+          "published_date": "02/02/2022",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2021-2022 Model 3, Model S, Model X, and 2020-2022 Model Y vehicles.  A software error may cause a valve in the heat pump to open unintentionally and trap the refrigerant inside the evaporator, resulting in decreased defrosting performance.  As such, these ve"
+        },
+        {
+          "component": "ELECTRICAL SYSTEM:SOFTWARE",
+          "campaign": "22V063000",
+          "published_date": "04/02/2022",
+          "related_complaint_count": 0,
+          "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2022 Model S, Model X, Model Y, and 2017-2022 Model 3 vehicles.  The Boombox function allows sounds to be played through an external speaker while the vehicle is in motion, which may obscure the Pedestrian Warning System (PWS) sounds.  As such, these veh"
+        }
+      ],
+      "complaint_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=Tesla&model=Model+Y&modelYear=2021",
+      "recall_url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=Tesla&model=Model+Y&modelYear=2021",
+      "complaints_http_status": 400,
+      "recalls_http_status": 200,
+      "complaints_retrieved_at": "2026-10-31T12:42:26+08:00",
+      "recalls_retrieved_at": "2026-10-31T12:42:27+08:00",
+      "sha256_complaints": "14614809c0b6f8c0eae087cf0f0e1f7e825b00bae8f60d5e26cbf06415e89334",
+      "sha256_recalls": "0bc35c7f3379d8a9c756cb293846092d189265024ee3fc97ee44239072a02a91",
+      "raw_complaints_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Tesla_Model_Y_2021_complaints.json",
+      "raw_recalls_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/imported/raw/candidate_screening/Tesla_Model_Y_2021_recalls.json",
+      "screened_at": "2026-10-31T12:42:27+08:00"
+    }
+  ],
+  "created_at": "2026-10-31T12:42:36+08:00"
+}

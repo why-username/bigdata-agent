@@ -1,0 +1,4728 @@
+{
+  "schema_version": "research-benchmark-v1",
+  "created_at": "2026-10-31",
+  "selection": "all public snapshot cases, eight objectives, three cutoff dates per case",
+  "cases": [
+    {
+      "case_id": "EA23003",
+      "title": "Honda/Acura 转向阻力调查 EA23003（NHTSA API 快照）",
+      "cutoffs": [
+        "2022-09-27",
+        "2023-04-28",
+        "2023-11-28"
+      ]
+    },
+    {
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "title": "Ford Explorer 2020 发动机召回",
+      "cutoffs": [
+        "2020-06-25",
+        "2020-09-21",
+        "2020-12-17"
+      ]
+    },
+    {
+      "case_id": "MIG-ODI-PE22002",
+      "title": "TESLA MODEL 3 2020：Unexpected Brake Activation",
+      "cutoffs": [
+        "2023-03-24",
+        "2024-11-10",
+        "2026-06-29"
+      ]
+    },
+    {
+      "case_id": "MIG-ODI-PE23013",
+      "title": "FORD ESCAPE 2020：Failed Door Check Arm Attachment Point",
+      "cutoffs": [
+        "2021-12-27",
+        "2023-01-10",
+        "2024-01-24"
+      ]
+    },
+    {
+      "case_id": "MIG-ODI-PE24028",
+      "title": "HYUNDAI IONIQ 5 2022：Electrical arcing and thermal events, potentially leading to fires, while utilizing Enel X Way USA, LLC's JuiceBox residential charger.",
+      "cutoffs": [
+        "2023-11-06",
+        "2024-08-20",
+        "2025-06-05"
+      ]
+    },
+    {
+      "case_id": "MIG-ODI-RQ22005",
+      "title": "HYUNDAI PALISADE 2021：Windshield Wiper Failure",
+      "cutoffs": [
+        "2021-12-30",
+        "2022-09-12",
+        "2023-05-26"
+      ]
+    },
+    {
+      "case_id": "MIG-ODI-RQ23002",
+      "title": "FORD EXPLORER 2020：Rear Axle Bolt Failure",
+      "cutoffs": [
+        "2021-12-29",
+        "2023-01-22",
+        "2024-02-15"
+      ]
+    },
+    {
+      "case_id": "MIG-ODI-RQ24008",
+      "title": "FORD BRONCO SPORT 2022：Underhood fires caused by fuel leak",
+      "cutoffs": [
+        "2023-12-25",
+        "2024-11-26",
+        "2025-10-30"
+      ]
+    },
+    {
+      "case_id": "MIG-ODI-RQ24014",
+      "title": "FORD BRONCO SPORT 2021：Loss of Motive Power",
+      "cutoffs": [
+        "2023-07-08",
+        "2024-08-24",
+        "2025-10-10"
+      ]
+    },
+    {
+      "case_id": "MIG-ODI-RQ26001",
+      "title": "CHEVROLET SILVERADO 1500 2021：Loss of motive power due to engine failure post recall remedy",
+      "cutoffs": [
+        "2023-10-17",
+        "2025-03-19",
+        "2026-08-20"
+      ]
+    },
+    {
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "title": "Tesla Model 3 2021 制动卡钳召回",
+      "cutoffs": [
+        "2021-03-12",
+        "2021-04-18",
+        "2021-05-25"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "R-EA23003-01-01",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2022-09-27",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-01-02",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2022-09-27",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-01-03",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2022-09-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-01-04",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2022-09-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-01-05",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2022-09-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-01-06",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2022-09-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-01-07",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2022-09-27",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-01-08",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2022-09-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-02-01",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-04-28",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-02-02",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-04-28",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-02-03",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-04-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-02-04",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-04-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-02-05",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-04-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-02-06",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-04-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-02-07",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-04-28",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-02-08",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-04-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-03-01",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-11-28",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-03-02",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-11-28",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-03-03",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-11-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-03-04",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-11-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-03-05",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-11-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-03-06",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-11-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-03-07",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-11-28",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-EA23003-03-08",
+      "case_id": "EA23003",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-11-28",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "steering"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-01-01",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2020-06-25",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-01-02",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2020-06-25",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-01-03",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2020-06-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-01-04",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2020-06-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-01-05",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2020-06-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-01-06",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2020-06-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-01-07",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2020-06-25",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-01-08",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2020-06-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-02-01",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2020-09-21",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-02-02",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2020-09-21",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-02-03",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2020-09-21",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-02-04",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2020-09-21",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-02-05",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2020-09-21",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-02-06",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2020-09-21",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-02-07",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2020-09-21",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-02-08",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2020-09-21",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-03-01",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2020-12-17",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-03-02",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2020-12-17",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-03-03",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2020-12-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-03-04",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2020-12-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-03-05",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2020-12-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-03-06",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2020-12-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-03-07",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2020-12-17",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-FORD-EXPLORER-2020-20V788000-03-08",
+      "case_id": "MIG-FORD-EXPLORER-2020-20V788000",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2020-12-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-01-01",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-03-24",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-01-02",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-03-24",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-01-03",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-03-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-01-04",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-03-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-01-05",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-03-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-01-06",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-03-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-01-07",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-03-24",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-01-08",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-03-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-02-01",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2024-11-10",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-02-02",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2024-11-10",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-02-03",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2024-11-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-02-04",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2024-11-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-02-05",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2024-11-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-02-06",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2024-11-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-02-07",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2024-11-10",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-02-08",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2024-11-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-03-01",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2026-06-29",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-03-02",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2026-06-29",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-03-03",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2026-06-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-03-04",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2026-06-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-03-05",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2026-06-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-03-06",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2026-06-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-03-07",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2026-06-29",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE22002-03-08",
+      "case_id": "MIG-ODI-PE22002",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2026-06-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "forward collision avoidance: adaptive cruise control:software:signage/signal recognition"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-01-01",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2021-12-27",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-01-02",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2021-12-27",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-01-03",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2021-12-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-01-04",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2021-12-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-01-05",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2021-12-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-01-06",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2021-12-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-01-07",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2021-12-27",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-01-08",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2021-12-27",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-02-01",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-01-10",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-02-02",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-01-10",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-02-03",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-01-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-02-04",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-01-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-02-05",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-01-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-02-06",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-01-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-02-07",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-01-10",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-02-08",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-01-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-03-01",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2024-01-24",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-03-02",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2024-01-24",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-03-03",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2024-01-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-03-04",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2024-01-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-03-05",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2024-01-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-03-06",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2024-01-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-03-07",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2024-01-24",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE23013-03-08",
+      "case_id": "MIG-ODI-PE23013",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2024-01-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "structure:body:door "
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-01-01",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-11-06",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-01-02",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-11-06",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-01-03",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-11-06",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-01-04",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-11-06",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-01-05",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-11-06",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-01-06",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-11-06",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-01-07",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-11-06",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-01-08",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-11-06",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-02-01",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2024-08-20",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-02-02",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2024-08-20",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-02-03",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2024-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-02-04",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2024-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-02-05",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2024-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-02-06",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2024-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-02-07",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2024-08-20",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-02-08",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2024-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-03-01",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2025-06-05",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-03-02",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2025-06-05",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-03-03",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2025-06-05",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-03-04",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2025-06-05",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-03-05",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2025-06-05",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-03-06",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2025-06-05",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-03-07",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2025-06-05",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-PE24028-03-08",
+      "case_id": "MIG-ODI-PE24028",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2025-06-05",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "equipment:electrical"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-01-01",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2021-12-30",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-01-02",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2021-12-30",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-01-03",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2021-12-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-01-04",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2021-12-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-01-05",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2021-12-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-01-06",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2021-12-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-01-07",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2021-12-30",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-01-08",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2021-12-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-02-01",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2022-09-12",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-02-02",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2022-09-12",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-02-03",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2022-09-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-02-04",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2022-09-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-02-05",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2022-09-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-02-06",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2022-09-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-02-07",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2022-09-12",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-02-08",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2022-09-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-03-01",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-05-26",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-03-02",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-05-26",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-03-03",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-05-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-03-04",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-05-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-03-05",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-05-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-03-06",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-05-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-03-07",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-05-26",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ22005-03-08",
+      "case_id": "MIG-ODI-RQ22005",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-05-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "visibility:windshield wiper/washer"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-01-01",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2021-12-29",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-01-02",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2021-12-29",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-01-03",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2021-12-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-01-04",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2021-12-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-01-05",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2021-12-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-01-06",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2021-12-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-01-07",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2021-12-29",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-01-08",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2021-12-29",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-02-01",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-01-22",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-02-02",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-01-22",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-02-03",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-01-22",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-02-04",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-01-22",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-02-05",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-01-22",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-02-06",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-01-22",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-02-07",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-01-22",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-02-08",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-01-22",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-03-01",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2024-02-15",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-03-02",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2024-02-15",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-03-03",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2024-02-15",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-03-04",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2024-02-15",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-03-05",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2024-02-15",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-03-06",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2024-02-15",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-03-07",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2024-02-15",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ23002-03-08",
+      "case_id": "MIG-ODI-RQ23002",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2024-02-15",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "power train:axle assembly"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-01-01",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-12-25",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-01-02",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-12-25",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-01-03",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-12-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-01-04",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-12-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-01-05",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-12-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-01-06",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-12-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-01-07",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-12-25",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-01-08",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-12-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-02-01",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2024-11-26",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-02-02",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2024-11-26",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-02-03",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2024-11-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-02-04",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2024-11-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-02-05",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2024-11-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-02-06",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2024-11-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-02-07",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2024-11-26",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-02-08",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2024-11-26",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-03-01",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2025-10-30",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-03-02",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2025-10-30",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-03-03",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2025-10-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-03-04",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2025-10-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-03-05",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2025-10-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-03-06",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2025-10-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-03-07",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2025-10-30",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24008-03-08",
+      "case_id": "MIG-ODI-RQ24008",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2025-10-30",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "fuel system, gasoline:fuel injection system:injectors"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-01-01",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-07-08",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-01-02",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-07-08",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-01-03",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-07-08",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-01-04",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-07-08",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-01-05",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-07-08",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-01-06",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-07-08",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-01-07",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-07-08",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-01-08",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-07-08",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-02-01",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2024-08-24",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-02-02",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2024-08-24",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-02-03",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2024-08-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-02-04",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2024-08-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-02-05",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2024-08-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-02-06",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2024-08-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-02-07",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2024-08-24",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-02-08",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2024-08-24",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-03-01",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2025-10-10",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-03-02",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2025-10-10",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-03-03",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2025-10-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-03-04",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2025-10-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-03-05",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2025-10-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-03-06",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2025-10-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-03-07",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2025-10-10",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ24014-03-08",
+      "case_id": "MIG-ODI-RQ24014",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2025-10-10",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "electrical system:12v/24v/48v battery"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-01-01",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2023-10-17",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-01-02",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2023-10-17",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-01-03",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2023-10-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-01-04",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2023-10-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-01-05",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2023-10-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-01-06",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2023-10-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-01-07",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2023-10-17",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-01-08",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2023-10-17",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-02-01",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2025-03-19",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-02-02",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2025-03-19",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-02-03",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2025-03-19",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-02-04",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2025-03-19",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-02-05",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2025-03-19",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-02-06",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2025-03-19",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-02-07",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2025-03-19",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-02-08",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2025-03-19",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-03-01",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2026-08-20",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-03-02",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2026-08-20",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-03-03",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2026-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-03-04",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2026-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-03-05",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2026-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-03-06",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2026-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-03-07",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2026-08-20",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-ODI-RQ26001-03-08",
+      "case_id": "MIG-ODI-RQ26001",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2026-08-20",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "engine"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-01-01",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2021-03-12",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-01-02",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2021-03-12",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-01-03",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2021-03-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-01-04",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2021-03-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-01-05",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2021-03-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-01-06",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2021-03-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-01-07",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2021-03-12",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-01-08",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2021-03-12",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-02-01",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2021-04-18",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-02-02",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2021-04-18",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-02-03",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2021-04-18",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-02-04",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2021-04-18",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-02-05",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2021-04-18",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-02-06",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2021-04-18",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-02-07",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2021-04-18",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-02-08",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2021-04-18",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-03-01",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "汇总截点内投诉趋势，并说明投诉统计不能代表真实故障率。",
+      "focus": "trend",
+      "cutoff_date": "2021-05-25",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-03-02",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "检查车型、年款和主要部件之间是否存在值得核查的共同线索。",
+      "focus": "links",
+      "cutoff_date": "2021-05-25",
+      "expected_tools": [
+        "search_records",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-03-03",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "提出竞争性解释并寻找支持与反证材料，避免确认偏差。",
+      "focus": "counterevidence",
+      "cutoff_date": "2021-05-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-03-04",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "检查症状文本相似性是否足以支持关联，并保留不确定性。",
+      "focus": "evidence",
+      "cutoff_date": "2021-05-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-03-05",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "根据当前证据缺口提出带依据和验收条件的下一步补查。",
+      "focus": "followup",
+      "cutoff_date": "2021-05-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "create_followup"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-03-06",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "形成带来源登记、截点说明和限制条件的调查摘要。",
+      "focus": "report",
+      "cutoff_date": "2021-05-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-03-07",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "检查缺失字段、重复候选和来源元数据，区分记录质量问题与故障线索。",
+      "focus": "data_quality",
+      "cutoff_date": "2021-05-25",
+      "expected_tools": [
+        "search_records",
+        "analyze_trend",
+        "link_entities"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    },
+    {
+      "task_id": "R-MIG-TESLA-MODEL3-2021-21V387000-03-08",
+      "case_id": "MIG-TESLA-MODEL3-2021-21V387000",
+      "kind": "research_investigation",
+      "goal": "核对多个历史截点的结果是否只使用当时可得的记录和证据。",
+      "focus": "temporal",
+      "cutoff_date": "2021-05-25",
+      "expected_tools": [
+        "search_records",
+        "retrieve_evidence",
+        "analyze_trend"
+      ],
+      "budget": {
+        "max_steps": 8,
+        "max_tool_retries": 2
+      },
+      "case_component": "service brakes"
+    }
+  ]
+}

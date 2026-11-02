@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "expanded_case",
+    "case_id": "MIG-ODI-RQ26001",
+    "investigation_id": "RQ26001",
+    "source_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=CHEVROLET&model=SILVERADO+1500&modelYear=2021",
+    "investigation_source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "raw_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/expanded/raw_complaints/RQ26001_CHEVROLET_SILVERADO_1500_2021_complaints.json",
+    "sha256": "b55c168e80962f30d9eedf26770d302bcfcbd5676dd466eb3787dfc9432fad74",
+    "saved_at": "2026-10-31T15:56:04+00:00"
+  },
+  {
+    "kind": "expanded_case",
+    "case_id": "MIG-ODI-PE23013",
+    "investigation_id": "PE23013",
+    "source_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=FORD&model=ESCAPE&modelYear=2020",
+    "investigation_source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "raw_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/expanded/raw_complaints/PE23013_FORD_ESCAPE_2020_complaints.json",
+    "sha256": "84dff7762c590e49aae612c5dfaac48152e3c63776e6940db2f274e47e4b1262",
+    "saved_at": "2026-10-31T15:55:14+00:00"
+  },
+  {
+    "kind": "expanded_case",
+    "case_id": "MIG-ODI-RQ24014",
+    "investigation_id": "RQ24014",
+    "source_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=FORD&model=BRONCO+SPORT&modelYear=2021",
+    "investigation_source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "raw_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/expanded/raw_complaints/RQ24014_FORD_BRONCO_SPORT_2021_complaints.json",
+    "sha256": "156343043044b01263f7d684a8b4320ff811e077b045c7e42edfe17e95bd7051",
+    "saved_at": "2026-10-31T15:55:58+00:00"
+  },
+  {
+    "kind": "expanded_case",
+    "case_id": "MIG-ODI-PE24028",
+    "investigation_id": "PE24028",
+    "source_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=HYUNDAI&model=IONIQ+5&modelYear=2022",
+    "investigation_source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "raw_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/expanded/raw_complaints/PE24028_HYUNDAI_IONIQ_5_2022_complaints.json",
+    "sha256": "8831fd645fe0623c67081cd71f7b7931732a0dc09449a829d331192cb4796a39",
+    "saved_at": "2026-10-31T15:55:32+00:00"
+  },
+  {
+    "kind": "expanded_case",
+    "case_id": "MIG-ODI-RQ23002",
+    "investigation_id": "RQ23002",
+    "source_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=FORD&model=EXPLORER&modelYear=2020",
+    "investigation_source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "raw_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/expanded/raw_complaints/RQ23002_FORD_EXPLORER_2020_complaints.json",
+    "sha256": "d21d8af223326c7a551c172fe8b94165e9c0a923303a28225d20e1e0404d7bdb",
+    "saved_at": "2026-10-31T15:55:49+00:00"
+  },
+  {
+    "kind": "expanded_case",
+    "case_id": "MIG-ODI-PE22002",
+    "investigation_id": "PE22002",
+    "source_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=TESLA&model=MODEL+3&modelYear=2020",
+    "investigation_source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "raw_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/expanded/raw_complaints/PE22002_TESLA_MODEL_3_2020_complaints.json",
+    "sha256": "4ba153fc02fc9e4a8b6d2611569e753adad0fa5b22ab3bc6e45a12103d080319",
+    "saved_at": "2026-10-31T15:54:56+00:00"
+  },
+  {
+    "kind": "expanded_case",
+    "case_id": "MIG-ODI-RQ24008",
+    "investigation_id": "RQ24008",
+    "source_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=FORD&model=BRONCO+SPORT&modelYear=2022",
+    "investigation_source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "raw_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/expanded/raw_complaints/RQ24008_FORD_BRONCO_SPORT_2022_complaints.json",
+    "sha256": "5d300042368e6cb5b085417754770602ea5ea3144dabd970f4693f4533979d9b",
+    "saved_at": "2026-10-31T15:55:54+00:00"
+  },
+  {
+    "kind": "expanded_case",
+    "case_id": "MIG-ODI-RQ22005",
+    "investigation_id": "RQ22005",
+    "source_url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=HYUNDAI&model=PALISADE&modelYear=2021",
+    "investigation_source_url": "https://static.nhtsa.gov/odi/ffdd/inv/FLAT_INV.zip",
+    "raw_path": "/Users/davinci/Documents/ChatGPT/设计大数据基础agent构建/data/expanded/raw_complaints/RQ22005_HYUNDAI_PALISADE_2021_complaints.json",
+    "sha256": "93cf78446e45452cd49c7105dcbe5dd7b7c9c39e4e61a4eb29c8cb0bf9fa5f3e",
+    "saved_at": "2026-10-31T15:55:45+00:00"
+  }
+]

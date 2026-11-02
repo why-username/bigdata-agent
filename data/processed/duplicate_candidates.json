@@ -1,0 +1,944 @@
+[
+  {
+    "normalized_text_sha256": "b23a6a8439c0dde5515893e7c90c1e3233b8616e634470f20dc4928bcf3609bc",
+    "record_ids": [
+      "11647035",
+      "11552686",
+      "11628595",
+      "11544464",
+      "11458148",
+      "11508643"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "21986d358f085daa70089c692d4b4c9d39348e50aee88f6a38f1dc09b471b54d",
+    "record_ids": [
+      "11640705",
+      "11628632"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "c5db4a7a7dd7008e36d14e2fd1409dac4e0aa33e476478093ce9d8f8342fb028",
+    "record_ids": [
+      "11585617",
+      "11574369",
+      "11569824",
+      "11572563",
+      "11570649",
+      "11552171"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "f026a46f62e3a79b20fc31f64e2aaf40856c2ab21869380c043318f26d527bdc",
+    "record_ids": [
+      "11559323",
+      "11757847"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "e36f748d42b4977c8bf6f9d1716c2aac7db5f66e0dab1921af751c66240fa473",
+    "record_ids": [
+      "11629618",
+      "11628293"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "5623abff8ec79c87bce9967f6a686d45a55dda6d2ad78485b10881be29db8e87",
+    "record_ids": [
+      "11607193",
+      "11730178",
+      "11715050",
+      "11692313",
+      "11688293",
+      "11688184",
+      "11653738",
+      "11609908",
+      "11570986",
+      "11685077",
+      "11656253",
+      "11654038",
+      "11610177"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "8438741553848eeedc75603e8e14deb3513529a86a272fb2beaa530632d75df6",
+    "record_ids": [
+      "11570482",
+      "11570482"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "ea0f3e63927ebe152b300c9c7bc2f3c75ce802e84f8cf428e5fb01df82ce1e23",
+    "record_ids": [
+      "11564830",
+      "11564830"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "11a8b2ec2b43bbc22e8f20947239dc78cde65c7c0a66ebf48601c1d1e9279e50",
+    "record_ids": [
+      "11563766",
+      "11563766"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "140574983624d1a201f832f9ff8a8164831c7fe66458c3eaf64d0829f8a466cc",
+    "record_ids": [
+      "11558722",
+      "11558722"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "c9aa797ef69c6fa0f6eb450b4956625961b4d3c99f4d728b0798f90ee2f882c5",
+    "record_ids": [
+      "11551566",
+      "11551566"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "5387d7b8f1503d7e44ffeef96bfd708430998c0202a7f62020d1aa7a46d3c3b7",
+    "record_ids": [
+      "11551707",
+      "11551707"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "0c36b4b84778f4cc739df5c9d31ef47b544655a99622591aeadbd76a692cb7be",
+    "record_ids": [
+      "11550750",
+      "11550750"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "b35f20563c0e3fd8639e3d2062824c5e9684c66aa481b54019fa04914a2d7693",
+    "record_ids": [
+      "11550210",
+      "11550210"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "8c0aa292c6f5001fdce5c3aac29d483d4bd884796e7b5839597ff3fbc62a35a9",
+    "record_ids": [
+      "11549905",
+      "11549905"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "e49aaf8b8d7e78a073a5ebceddc6e697424f3cf9d241b01c52d1ed0095c07012",
+    "record_ids": [
+      "11549178",
+      "11549178"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "db8e1f341442c26052847d3d9f5f27ae7ab281d7705c5d937542d00e6704b96e",
+    "record_ids": [
+      "11548455",
+      "11548455"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "4263f6092e7889dae8211f94bb948ecdc8eb91943104b7ec22c1eeef24a6f09d",
+    "record_ids": [
+      "11548252",
+      "11548252"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "2fd6cf7f6d04d43c1e6c85a300a20161ab24ae7bb36444ecc2f20c56cd94870b",
+    "record_ids": [
+      "11546715",
+      "11546715"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "166271e070468fcc5561fac758a664d0a280d17b75b95650ccdde5d2e0c46889",
+    "record_ids": [
+      "11545864",
+      "11545864"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "84c0f959e9e94b9a031d14215e6e916f29c7454de38a646a58275863f44ef7db",
+    "record_ids": [
+      "11544172",
+      "11544172"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "5ef1c66c1e1a18f426c5f7b2450fc34df4d3e95580ae36aba087ab472d2a8cee",
+    "record_ids": [
+      "11543710",
+      "11543710"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "4231b6b60c5a8d2a7c933617be9f3d91a1cb598b393ccf6192afb52ac7a875fa",
+    "record_ids": [
+      "11539510",
+      "11539510"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "78567d2f0cac6b8b583b5ae56dfc821d2193e88f71cfc753375bf0ad9b156123",
+    "record_ids": [
+      "11539225",
+      "11539225"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "7e86246b5e2b800d9ac4869474bd4c915b78d103445c76990c120d1fa0c87d67",
+    "record_ids": [
+      "11537794",
+      "11537794"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "b93ae865bf76aa2be8d615298dfd49f8842e05c62cff95e5c29b1a68ef61e94e",
+    "record_ids": [
+      "11537294",
+      "11537294"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "d52b90b74f510d7d01b6f69865039675ba5e5249f69a70fd1b4dd756d26c4583",
+    "record_ids": [
+      "11536848",
+      "11536848"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "d35e89ab83aadf08202ccfe45f33ff4da5cd6c9998f7b374caa536ce36d5f1ee",
+    "record_ids": [
+      "11534160",
+      "11534160"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "9ac97242a1d8a79771e527053dd9740e4ebb721e9e82aecccd8b53b461661200",
+    "record_ids": [
+      "11533701",
+      "11533701"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "6c369ec98896e5eb81072d022c0ce379dbdd9be266dc1259b800a2cab645ff4a",
+    "record_ids": [
+      "11532753",
+      "11532753"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "25fe85dd26d9b6dbcc8a143b7e2f22c696f5297c7f587ec67f049bdf05b30d30",
+    "record_ids": [
+      "11528757",
+      "11528757"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "90ad0734dc7f7317183c13a551e3999a0d48ca08a165f00d52373250a355e096",
+    "record_ids": [
+      "11524832",
+      "11524832"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "6a50ddd98cc99b3f60e0f94b1bf0dfba75cdecf1ed0dc8ae86e4f82342111fd2",
+    "record_ids": [
+      "11521566",
+      "11521566"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "c62e4487ef733f7d7ef21dc96e83316c118d7369903deffa4098f7158ec0988f",
+    "record_ids": [
+      "11517367",
+      "11517367"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "1c2c9ed3778bc891222c9f10ff0eaab2c8e748cec3a7b6db51b632d54ed85c00",
+    "record_ids": [
+      "11516911",
+      "11516911"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "dc8fa6072313c22dcf5a5567a33bb1ac3c0b0bcb9ec0fb6b7fa53dea4535915d",
+    "record_ids": [
+      "11512802",
+      "11512802"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "6c59d3410563b7b7d1005218d0e4534745ed7fa161f1e368ef281ea4ae6f9d59",
+    "record_ids": [
+      "11510193",
+      "11510193"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "4681b86ffc18fab51f31c26d702dc95137eeaf849a0780eb27416df4b0a7092b",
+    "record_ids": [
+      "11497649",
+      "11497649"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "d0deea222842f899e0dae9898d172d7ff1e8a5c7b37dc03da57760ee8ef6386c",
+    "record_ids": [
+      "11494044",
+      "11494044"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "cf3d7c47a7e22af84a397214c7b3b009a73235cd49cf38153ca1b607eb754f40",
+    "record_ids": [
+      "11490296",
+      "11490296"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "d2f36caa61d5ebea54ec6c367b5ec3c41a8b7d3473709ceb4726ccbe6415c8ff",
+    "record_ids": [
+      "11489007",
+      "11489007"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "1571094572e2a848b5d62110b720c9158ae907d680af386d7c03085907e5a784",
+    "record_ids": [
+      "11488622",
+      "11488622"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "aff717727d3863478f2bf1396216fdd7865c7dd84a081ec7b18f692cb3572adb",
+    "record_ids": [
+      "11479333",
+      "11479333"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "49a7af3280188e53cc1da305b721a2103c61dd0ce7ccceed8ca70cedeed97c21",
+    "record_ids": [
+      "11478211",
+      "11478211"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "1d141d985697db4ed1138f66e55f66e33e8373183b63e3e41aef02d338d42f72",
+    "record_ids": [
+      "11473812",
+      "11473812"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "13cdc639e0c9e7f7a6e941ecaa5c18ccfaea1351af8c904a2746a85721722070",
+    "record_ids": [
+      "11467693",
+      "11467693"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "b0a4ce169d50717e0666e0cd6c04c92b2f1990e5978d0d28d254d9840365802c",
+    "record_ids": [
+      "11462094",
+      "11462094"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "e7e000a632198b42bd980f4e01d013aa9c0e35d1fd1647e26171215730a0f245",
+    "record_ids": [
+      "11460302",
+      "11460302"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "17bc94a392b059c919d8de290ab17ac5a10d22e456937cca620ccad74240d049",
+    "record_ids": [
+      "11450570",
+      "11450570"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "3003e6e7f364aedb22a847d6e0c5cc588aaed5f1990e06e7a7ddd6051ef68b7b",
+    "record_ids": [
+      "11447278",
+      "11447278"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "2dbe700774f61766d839624ec81fd88c469a5888a5408912bbf4dd23a34218f6",
+    "record_ids": [
+      "11442766",
+      "11442766"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "0c02f5f77e8e9b39aea511c54b6682451a02af7160a437e29042816f30f0d847",
+    "record_ids": [
+      "11438221",
+      "11438221"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "a1499f5918749849b47c5b3d613e45a387789416a344a5eb226890c20063ded3",
+    "record_ids": [
+      "11429226",
+      "11429226"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "fe7d4bda5c6f06d5113e4120ed7e618d7a02f36f1de73f5d15641e066bee7321",
+    "record_ids": [
+      "11426950",
+      "11426950"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "41a5a16071f709548f86900c4ef193c019a787c849b7b612ac22ed3f2819c345",
+    "record_ids": [
+      "11413173",
+      "11413173"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "138a14cab100194828a49078e64bb7e8bc7c9d003f20e33d7c792daafcb343a2",
+    "record_ids": [
+      "11399302",
+      "11399302"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "5c6a038c2aba6bbc09cd6a4604e359ba701000ff6492974ef327e988b6409f4c",
+    "record_ids": [
+      "11397158",
+      "11397158"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "04088326005b929febb4e68c1adc3757e0ba9e9adac16bfa0194c0176e631367",
+    "record_ids": [
+      "11396164",
+      "11396164"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "0e83daf7afe2d5c7dc8a7c80089e1d052d1c353d7e698cc4a18a40b4493f7310",
+    "record_ids": [
+      "11390820",
+      "11390820"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "d869873f5143f6a392f01c7f20c51102548373873a38440de5a72297fe7c16a3",
+    "record_ids": [
+      "11390732",
+      "11390732"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "69aaebb3c26e71c202d007db7dbf2dc79fed809c68158e95075ffc2c00a38692",
+    "record_ids": [
+      "11385123",
+      "11385123"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "36772f23a3e61c3ff5d82c359528beba7fc718a077e2d8fc317c920f6dc44994",
+    "record_ids": [
+      "11365871",
+      "11365871"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "ecb69ae955652fb4b6727e050c6d7d447b7630a7c305879af2a0d594cbb3b3b1",
+    "record_ids": [
+      "11364658",
+      "11364658"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "3a6a4d84e625073e1260746af76f27223decef17cb84b1b381f5a918dba22b70",
+    "record_ids": [
+      "11364533",
+      "11364533"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "1d6cd3467bc70207cc32905c6d884b3b3a1cddf5ce4b7474145e2512b8dfeb0b",
+    "record_ids": [
+      "11361218",
+      "11361218"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "e0a22059038e00669bf9a4cfebf845b3bd75875f37d699e5c6b13d32d89bef29",
+    "record_ids": [
+      "11355562",
+      "11355562"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "ef9cda6d141c0ab38ef596baa626822c82f93fa2808bb9f6aff1c366ca6061d2",
+    "record_ids": [
+      "11352507",
+      "11352507"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "4394f6e9fa75db72c2d3517e9c266da0f0c6bd11d9d7322354c4bbc9fb31740d",
+    "record_ids": [
+      "11342169",
+      "11342169"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "5676cd399ac3f4db59eaa6b0bc6704175ddf344a36d0876cda4f3392e0b4d5d2",
+    "record_ids": [
+      "11340186",
+      "11340186"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "536ed3f947e26e04a6ce6c0dace46a8ba938741dab36a1ab9f7a97b9942507e4",
+    "record_ids": [
+      "11339014",
+      "11339014"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "ea8eaeeb0aa89aa390d5dff8812d1beb916c26a70eab7c505bd85827d9bbd613",
+    "record_ids": [
+      "11329871",
+      "11329871"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "fb5809b7846810d63730e7bb8f577cc447a48b2bca39ac0f7747d921771d186a",
+    "record_ids": [
+      "11325510",
+      "11325510"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "1d18453efe271dff7ea537dff696e176f9c18ef62a0609471a7b0db5299f15ea",
+    "record_ids": [
+      "11318980",
+      "11318980"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "be9498bf7d2bab15221adbcb9b5868108aae4a709b47089519db44b16db5cae5",
+    "record_ids": [
+      "11315461",
+      "11315461"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "e537bdb769ba3ab53af8556c0699501265c506a1c7102aed70c6f43b2219410b",
+    "record_ids": [
+      "11309159",
+      "11309159"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "66922541c155ab27089315c4761e143a3731adde3c03e82cac7d4b67b3616fa3",
+    "record_ids": [
+      "11301763",
+      "11301763"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "f47041c7853d09861345e124175641220b8d5b1e28320e3a50be294fb4509759",
+    "record_ids": [
+      "11298598",
+      "11298598"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "37a336b81431b98964ecc4cecece8a7cef1ae3815822655160b6939176825846",
+    "record_ids": [
+      "11741416",
+      "11741419"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "8fcb5d3b1c2add68a5dd00618c6be7d5b4d07b892ae0a6bb25793b8fd591cf85",
+    "record_ids": [
+      "11695336",
+      "11695337"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "a8c7e0e00ddca346db8c0fafe5450d34b6f001fe82afb2770f47d5f0c6a35ddb",
+    "record_ids": [
+      "11648903",
+      "11648904"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "ada6fc591ceaf6912161ee6e906aa7925df582b6214cb71e70ec089be1d8dcdf",
+    "record_ids": [
+      "11551618",
+      "11548463"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "6e424186ecec80479498dfe8a7ab90ee2d1119b70d88298193b6dee81809bdb6",
+    "record_ids": [
+      "11550659",
+      "11550321"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "70c5b5f7e4cc0d8a2b090af36f0ab746dfb3d5c61cb0b8ce1af2dddcaf654a6d",
+    "record_ids": [
+      "11539441",
+      "11510641"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "7a0179135de069802d6a59a89ff9dfd253a4699db320713bb370d53d3c7dda14",
+    "record_ids": [
+      "11523557",
+      "11515471",
+      "11515181",
+      "11512827"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "9c04c6c50388e767b2716de8147529c7ce1e9ed7622eecdd3b9be1b0996c2dbb",
+    "record_ids": [
+      "11522645",
+      "11518656",
+      "11514197",
+      "11512373",
+      "11511607",
+      "11511203",
+      "11502463"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "413cea8cb3a31997573ab28c95059d756c7ffa352e911475ff0d6f95d6dcda11",
+    "record_ids": [
+      "11522044",
+      "11502432"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "dfcd480f81c6d0116dd88956b071180c12a3bf1795c53bade6b0f545f3335737",
+    "record_ids": [
+      "11520418",
+      "11519206"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "68962f43b0dda4bf4c8850a8493c9a947d9c07da4cdbcfd17d7db90a2a49a96b",
+    "record_ids": [
+      "11517680",
+      "11512345"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "f79160c2f1d4807e3108ce1ecf15877feeda7fb07f0cc4acc0fcbf02b4233b59",
+    "record_ids": [
+      "11506684",
+      "11504513"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "97e0e7a4f580c95f7b0efacfa6bac9b879c0b366f8ed629d0c5df05b4e815b11",
+    "record_ids": [
+      "11649310",
+      "11641297"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "4d579a72b9d7abdaf01139aeacb2849eeb1f725934fd5c436b7fec8fe21078dd",
+    "record_ids": [
+      "11648210",
+      "11643624"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "14643133b2fef12f4da932183d2e650902578328e045ffa6fdb76deeccc1b66a",
+    "record_ids": [
+      "11529082",
+      "11512045",
+      "11512050"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "e095f54310c60beab615ae218c62b10ec1c172461a06031c121333fbcf3b2b75",
+    "record_ids": [
+      "11520469",
+      "11519298",
+      "11515574",
+      "11504735"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "3c7f24417a3170892c3f385b40caa6e6116d58ea9f5c75bdc3dfd070990f99bf",
+    "record_ids": [
+      "11517831",
+      "11511782",
+      "11504061"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "74c5dcc396d62483611e7b958d6e89c0a1f3088aa7452052a917884e9d4caca4",
+    "record_ids": [
+      "11560074",
+      "11555485"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "3b8846d8bbac8f4d5fa7e33638cfabdee3ae8c9172162a974740f60cbe21504d",
+    "record_ids": [
+      "11660578",
+      "11660580"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "acb058bb43202254f506d6593f6079e9a1dd9543b3a98925b8da72a53dd7294a",
+    "record_ids": [
+      "11522687",
+      "11517061",
+      "11512013",
+      "11510397",
+      "11506359"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "c5a6033a8aa10b153553ed18a7b5651ec31989a45b22cdd464f18e721c05b6a7",
+    "record_ids": [
+      "11521974",
+      "11521561"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "67f12138dd49a3525bd7bb55fe4987ace25ebcb1781a50cee2593a076a714251",
+    "record_ids": [
+      "11515379",
+      "11515464"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "d53d10dc01eae3655e8d81ddd82f0f807e8afe5401b6601a6001384cc167e165",
+    "record_ids": [
+      "11516493",
+      "11495272"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  },
+  {
+    "normalized_text_sha256": "4e9c2e8f7234304270edc6de722bb18c5c9c27bcf77bcd2c32365cd68a413980",
+    "record_ids": [
+      "11515114",
+      "11512375"
+    ],
+    "candidate_type": "exact_normalized_text",
+    "action": "retain_all_and_review"
+  }
+]

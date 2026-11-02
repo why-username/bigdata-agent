@@ -1,0 +1,12 @@
+{
+  "case_id": "EA23003",
+  "holdout_only": true,
+  "source_url": "https://static.nhtsa.gov/odi/inv/2023/INCLA-EA23003-11060.pdf",
+  "source_publication_date": "2025-01-28",
+  "facts_from_course_topic_document": [
+    "EA23003 began on 2023-11-29; earlier preliminary investigation PE23005 existed.",
+    "The related recall was filed on 2024-10-03 as 24V-744.",
+    "The close resume recorded 1,419 NHTSA reports and 3,386 manufacturer reports, consolidated to 4,569 report events after cross-channel deduplication."
+  ],
+  "warning": "This file is intentionally excluded from all runtime evidence indexes. It is an evaluation reference and its facts originate from the user's selection document."
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "case_id": "EA22002",
+    "make": "TESLA",
+    "model": "MODEL 3",
+    "component": "electrical system / driver controls",
+    "replay_cutoff": "2024-04-25",
+    "raw_complaint_count": 453,
+    "complaints_before_cutoff": 323,
+    "raw_snapshot": "data/expanded/raw_complaints/EA22002_TESLA_MODEL_3_2020_complaints.json",
+    "sha256": "4ba153fc02fc9e4a8b6d2611569e753adad0fa5b22ab3bc6e45a12103d080319",
+    "official_investigation_snapshot": "data/processed/odi_case_candidates.json",
+    "material_status": "needs_independent_close_material"
+  },
+  {
+    "case_id": "PE20016",
+    "make": "CHEVROLET",
+    "model": "BOLT EV",
+    "component": "electrical system / propulsion battery",
+    "replay_cutoff": "2022-02-07",
+    "raw_complaint_count": 175,
+    "complaints_before_cutoff": 40,
+    "raw_snapshot": "data/expanded/raw_complaints/PE20016_CHEVROLET_BOLT_EV_2020_complaints.json",
+    "sha256": "b973b4a97503e9a5b5ea9ef107dcca7be6aa6307a165b2db9960f0fa01e80ca8",
+    "official_investigation_snapshot": "data/processed/odi_case_candidates.json",
+    "material_status": "needs_independent_close_material"
+  },
+  {
+    "case_id": "PE23015",
+    "make": "FORD",
+    "model": "ECOSPORT",
+    "component": "engine / oil lubrication",
+    "replay_cutoff": "2024-02-14",
+    "raw_complaint_count": 402,
+    "complaints_before_cutoff": 112,
+    "raw_snapshot": "data/expanded/raw_complaints/PE23015_FORD_ECOSPORT_2020_complaints.json",
+    "sha256": "6be03f39058a1e71c520fac79d1c0890c4515aecf0406032fff89bfb03792c79",
+    "official_investigation_snapshot": "data/processed/odi_case_candidates.json",
+    "material_status": "needs_independent_close_material"
+  },
+  {
+    "case_id": "PE24004",
+    "make": "HONDA",
+    "model": "RIDGELINE",
+    "component": "back over prevention / rear camera",
+    "replay_cutoff": "2024-08-05",
+    "raw_complaint_count": 170,
+    "complaints_before_cutoff": 106,
+    "raw_snapshot": "data/expanded/raw_complaints/PE24004_HONDA_RIDGELINE_2020_complaints.json",
+    "sha256": "56d096718a5d995b5e1b8b26515df9f04f8bd76854812e1683f7947f3e213ec1",
+    "official_investigation_snapshot": "data/processed/odi_case_candidates.json",
+    "material_status": "needs_independent_close_material"
+  },
+  {
+    "case_id": "RQ23004",
+    "make": "FORD",
+    "model": "MUSTANG MACH-E",
+    "component": "electrical system / propulsion battery management",
+    "replay_cutoff": "2023-12-06",
+    "raw_complaint_count": 0,
+    "complaints_before_cutoff": 0,
+    "raw_snapshot": "data/expanded/raw_complaints/RQ23004_FORD_MUSTANG_MACH_E_2021_complaints.json",
+    "sha256": "14614809c0b6f8c0eae087cf0f0e1f7e825b00bae8f60d5e26cbf06415e89334",
+    "official_investigation_snapshot": "data/processed/odi_case_candidates.json",
+    "material_status": "complaint_snapshot_empty_needs_verification"
+  }
+]
